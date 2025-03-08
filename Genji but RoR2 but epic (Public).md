@@ -10,11 +10,11 @@ New development: imp arm is still fuckin alive, reluctantly helping the guy go k
 
 ## Model
 
-### ![](<Attachments/Attachment 1.png>)
+### ![](<Attachment 1.png>)
 
 - Stlll needs a weapon
 - Possible Color reference
-- ![](<Attachments/Attachment 2.png>)![](<Attachments/Attachment 3.png>)
+- ![](<Attachment 2.png>)![](<Attachment 3.png>)
 
 ## Abilities (Current Prototype)
 

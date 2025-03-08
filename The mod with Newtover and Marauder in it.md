@@ -19,7 +19,7 @@ Enemies: Split versions of Marauder that use one of his 3 weapons
 
 ## Newtvoker
 
-![](<Attachments/Attachment 18.png>)![](<Attachments/Attachment 19.png>)
+![](<Attachment 18.png>)![](<Attachment 19.png>)
 
 M1 simple somewhat limited attack to encourage casting spells
 
