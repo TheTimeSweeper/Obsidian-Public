@@ -7,10 +7,9 @@ A Japanese man is at the brink of death, and is brought back to life using cyber
 - Instead of simply dashing, he rips through space through the red plane and deals damage
 
 New development: imp arm is still fuckin alive, reluctantly helping the guy go kill providence cause imps hate providence, but after learning he’s dead settle with killing mithrix
-
 ## Model
 
-### ![](<Attachment 1.png>)
+### ![failed to load image](<Attachment 1.png>)
 
 - Stlll needs a weapon
 - Possible Color reference
