@@ -1,6 +1,3 @@
----
-tags: []
----
 ### Miner thoughts
 
 Oh by the way the color code legend is at the bottom

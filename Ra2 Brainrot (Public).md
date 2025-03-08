@@ -1,6 +1,3 @@
----
-tags: []
----
 ## The
 
 ### Tesla Trooper

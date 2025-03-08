@@ -1,6 +1,3 @@
----
-tags: []
----
 The Ultimate Potion
 
 - The bigger the explosion,

@@ -1,6 +1,3 @@
----
-tags: []
----
 Enforcer Gang
 
 Several aspects of this are now outdated
