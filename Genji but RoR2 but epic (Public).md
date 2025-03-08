@@ -1,8 +1,5 @@
----
-tags:
-  - Public
----
 ## Overview
+BIG CHANGE
 
 A Japanese man is at the brink of death, and is brought back to life using cybernetics, only this time, he was also grafted with Imp parts. Now he has cybernetic ninja abilities and the power of Imps and it’s fuckin rad.
 

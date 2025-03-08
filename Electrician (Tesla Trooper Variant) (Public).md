@@ -1,7 +1,3 @@
----
-tags:
-  - Public
----
 # Electrician
 
 ### Overview

@@ -1,7 +1,3 @@
----
-tags:
-  - Public
----
 # The mod with Newtover and Marauder in it
 
 TMWNaMIT

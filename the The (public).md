@@ -1,7 +1,3 @@
----
-tags:
-  - Public
----
 ## The
 
 These are concepts for ror2 characters that I’ve wanted to make, but don’t have time or the opportunity to prioritize them over the other things I work on.

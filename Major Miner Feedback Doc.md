@@ -1,6 +1,5 @@
 ---
-tags:
-  - Public
+tags: []
 ---
 ### Miner thoughts
 
