@@ -13,7 +13,7 @@ New development: imp arm is still fuckin alive, reluctantly helping the guy go k
 
 - Stlll needs a weapon
 - Possible Color reference
-- ![ok not final](<Attachment 2.png>)![](<Attachment 3.png>)
+- ![ok not final](<Attachment 2.png>)![i could live with it just kinda ugly](<Attachment 3.png>)
 
 ## Abilities (Current Prototype)
 
