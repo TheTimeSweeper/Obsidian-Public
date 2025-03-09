@@ -28,7 +28,7 @@ I've made somewhat a prototype of bomb selecting and that's about it
 
 ### Katamari [$**300**]
 
-![](<Attachment 3.gif>)
+![](<img/Attachment 3.gif>)
 
 Yes really. The wife keeps telling me to do it.
 
