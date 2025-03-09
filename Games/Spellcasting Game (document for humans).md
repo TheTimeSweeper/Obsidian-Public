@@ -1,6 +1,6 @@
 ![](img/SpellCasting.png)
 
-Simple as that
+Simple as thate
 
 We love casting spells
 
