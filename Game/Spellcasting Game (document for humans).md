@@ -1,4 +1,4 @@
-![](Public/img/Attachment%204.png)
+![](<Public/img/Attachment 22.png>)
 
 Simple as that
 
@@ -88,28 +88,28 @@ Each button controls a respective element. Controlling the elements is performed
 
 ## Basic Elements
 
-![](<Attachment 1 2.png>)
+![](<Public/img/Attachment 23.png>)
 
 Fire: Bound to m1, general damage
 
 - Swipe: throw a fireball
 - Swirl: aoe explosion
 
-![](<Attachment 2 1.png>)
+![](<Public/img/Attachment 24.png>)
 
 Earth: Bound to m2, damage and stuns
 
 - Swipe: throw a rock
 - Swirl: create a ring of stone around you. No one can get in, no one can get out
 
-![](<Attachment 3 1.png>)
+![](<Public/img/Attachment 25.png>)
 
 Water: Bound to shift, utility and debuffs
 
 - Swipe: shoot a wave in a direction. Pushes and slows enemies
 - Swirl: create a whirlpool dot zone that slows enemies
 
-![](<Attachment 4 1.png>)
+![](<Public/img/Attachment 26.png>)
 
 Air: Bound to Space, movement and knockback
 
@@ -119,7 +119,7 @@ Air: Bound to Space, movement and knockback
 
 Each element has its own mana bar. It slowly regenerates over time, but is mainly replenished by using your primary in close range.
 
-![](<Public/img/Attachment 5.png>)
+![](<Public/img/Attachment 27.png>)
 
 ## Secondary Elements
 
@@ -127,25 +127,25 @@ The four basic elements can be combined to create new elements, each with their 
 
 Hold one element, then input the second element to combine them
 
-![](<Public/img/Attachment 6.png>)
+![](<Public/img/Attachment 28.png>)
 
 Disclaimer: I know some of these combinations physically make no sense. I combine their properties based on their gameplay purposes first
 
-![](<Public/img/Attachment 7.png>)
+![](<Public/img/Attachment 29.png>)
 
 FIre and Earth: Metal: Earth but heavier
 
 - Swipe: throw, less distance more damage
 - Swirl: big block fall from the sky big stun
 
-![](<Public/img/Attachment 8.png>)
+![](<Public/img/Attachment 30.png>)
 
 Fire and Water: Lava: Area damage over time
 
 - Swipe wave that leaves pools on the ground
 - Swirl: covers land in a dot zone, burns enemies hit and reduces armor
 
-![](<Public/img/Attachment 9.png>)
+![](<Public/img/Attachment 31.png>)
 
 Water and Air: Light: Self buffs and healing
 
@@ -153,21 +153,21 @@ Water and Air: Light: Self buffs and healing
 - Swipe: slight push, move speed boost after
 - Swirl: heal and mana field
 
-![](<Public/img/Attachment 10.png>)
+![](<Public/img/Attachment 32.png>)
 
 Fire and Air: Lightning: Fast
 
 - Swipe: lightning bolt dash
 - Swirl: lightning storm in area, cause hits to chain lightning between enemies
 
-![](<Public/img/Attachment 11.png>)
+![](<Public/img/Attachment 33.png>)
 
 Earth and Air: Sand: Air but wider area and more damage
 
 - Swipe: move but damage and affects enemies
 - Swirl: Sandstorm by Darude, very large dot zone
 
-![](<Attachment 12 1.png>)
+![](<Public/img/Attachment 34.png>)
 
 Earth and Water: Ice: Water but more solid, freezes
 
@@ -176,7 +176,7 @@ Earth and Water: Ice: Water but more solid, freezes
 
 Combination elements use mana from the pools of both its component elements.
 
-![](<Public/img/Attachment 13.png>)
+![](<Public/img/Attachment 35.png>)
 
 Design
 
@@ -203,19 +203,19 @@ Design
 
 - Stat ups
     - Max health, damage, move speed, max mana, mana regen, health regen, attack speed, stun resistance, cast range  
-        ![](<Public/img/Attachment 14.png>)
+        ![](<Public/img/Attachment 36.png>)
     - Meat of damage  
-        ![](<Public/img/Attachment 15.png>)
+        ![](<Public/img/Attachment 37.png>)
     - Coffee of speed
 
-![](<Public/img/Attachment 16.png>)
+![](<Public/img/Attachment 38.png>)
 
 - - Bread of life (max health)  
-        ![](<Public/img/Attachment 17.png>)
+        ![](<Public/img/Attachment 39.png>)
     - Bread of mana (max mana)  
-        ![](<Attachment 18 1.png>)
+        ![](<Public/img/Attachment 40.png>)
     - Blue Cookie of regeneration (mana regen)  
-        ![](<Attachment 19 1.png>)![](<Public/img/Attachment 20.png>)
+        ![](<Public/img/Attachment 41.png>)![](<Public/img/Attachment 42.png>)
     - Regen globes (temporary)
 - Interesting items
     - Elemental interactions
@@ -223,7 +223,7 @@ Design
 
 # Enemies
 
-![](<Attachment 21 1.png>)
+![](<Public/img/Attachment 43.png>)
 
 Each time you gain an element, the shadow of that element is released into the world. This causes new enemies to appear, using that shadow element. These elements will encourage the player to use the element in question as a counter to them
 
