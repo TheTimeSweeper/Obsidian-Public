@@ -373,7 +373,7 @@ Plague Knight throws a bomb.
 
 - He’s gonna be a little micromanagey I love it
 
-**![](<Public/img/Attachment 12.png>)**
+**![](<_Public/img/Attachment 12.png>)**
 
 Old image without remote casing
 

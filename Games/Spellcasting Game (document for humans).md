@@ -1,4 +1,4 @@
-![](img/SpellCasting.png)
+![](SpellCasting.png)
 
 Simple as thate
 
@@ -88,28 +88,28 @@ Each button controls a respective element. Controlling the elements is performed
 
 ## Basic Elements
 
-![](<img/SpellCasting 1.png>)
+![](<SpellCasting 1.png>)
 
 Fire: Bound to m1, general damage
 
 - Swipe: throw a fireball
 - Swirl: aoe explosion
 
-![](<img/SpellCasting 2.png>)
+![](<SpellCasting 2.png>)
 
 Earth: Bound to m2, damage and stuns
 
 - Swipe: throw a rock
 - Swirl: create a ring of stone around you. No one can get in, no one can get out
 
-![](<img/SpellCasting 3.png>)
+![](<SpellCasting 3.png>)
 
 Water: Bound to shift, utility and debuffs
 
 - Swipe: shoot a wave in a direction. Pushes and slows enemies
 - Swirl: create a whirlpool dot zone that slows enemies
 
-![](<img/SpellCasting 4.png>)
+![](<SpellCasting 4.png>)
 
 Air: Bound to Space, movement and knockback
 
@@ -119,7 +119,7 @@ Air: Bound to Space, movement and knockback
 
 Each element has its own mana bar. It slowly regenerates over time, but is mainly replenished by using your primary in close range.
 
-![](<img/SpellCasting 5.png>)
+![](<SpellCasting 5.png>)
 
 ## Secondary Elements
 
@@ -127,25 +127,25 @@ The four basic elements can be combined to create new elements, each with their 
 
 Hold one element, then input the second element to combine them
 
-![](<img/SpellCasting 6.png>)
+![](<SpellCasting 6.png>)
 
 Disclaimer: I know some of these combinations physically make no sense. I combine their properties based on their gameplay purposes first
 
-![](<img/SpellCasting 7.png>)
+![](<SpellCasting 7.png>)
 
 FIre and Earth: Metal: Earth but heavier
 
 - Swipe: throw, less distance more damage
 - Swirl: big block fall from the sky big stun
 
-![](<img/SpellCasting 8.png>)
+![](<SpellCasting 8.png>)
 
 Fire and Water: Lava: Area damage over time
 
 - Swipe wave that leaves pools on the ground
 - Swirl: covers land in a dot zone, burns enemies hit and reduces armor
 
-![](<img/SpellCasting 9.png>)
+![](<SpellCasting 9.png>)
 
 Water and Air: Light: Self buffs and healing
 
@@ -153,21 +153,21 @@ Water and Air: Light: Self buffs and healing
 - Swipe: slight push, move speed boost after
 - Swirl: heal and mana field
 
-![](<img/SpellCasting 10.png>)
+![](<SpellCasting 10.png>)
 
 Fire and Air: Lightning: Fast
 
 - Swipe: lightning bolt dash
 - Swirl: lightning storm in area, cause hits to chain lightning between enemies
 
-![](<img/SpellCasting 11.png>)
+![](<SpellCasting 11.png>)
 
 Earth and Air: Sand: Air but wider area and more damage
 
 - Swipe: move but damage and affects enemies
 - Swirl: Sandstorm by Darude, very large dot zone
 
-![](<img/SpellCasting 12.png>)
+![](<SpellCasting 12.png>)
 
 Earth and Water: Ice: Water but more solid, freezes
 
@@ -176,7 +176,7 @@ Earth and Water: Ice: Water but more solid, freezes
 
 Combination elements use mana from the pools of both its component elements.
 
-![](<img/SpellCasting 13.png>)
+![](<SpellCasting 13.png>)
 
 Design
 
@@ -203,19 +203,19 @@ Design
 
 - Stat ups
     - Max health, damage, move speed, max mana, mana regen, health regen, attack speed, stun resistance, cast range  
-        ![](<img/SpellCasting 14.png>)
+        ![](<SpellCasting 14.png>)
     - Meat of damage  
-        ![](<img/SpellCasting 15.png>)
+        ![](<SpellCasting 15.png>)
     - Coffee of speed
 
-![](<img/SpellCasting 16.png>)
+![](<SpellCasting 16.png>)
 
 - - Bread of life (max health)  
-        ![](<img/SpellCasting 17.png>)
+        ![](<SpellCasting 17.png>)
     - Bread of mana (max mana)  
-        ![](<img/SpellCasting 18.png>)
+        ![](<SpellCasting 18.png>)
     - Blue Cookie of regeneration (mana regen)  
-        ![](<img/SpellCasting 19.png>)![](<img/SpellCasting 20.png>)
+        ![](<SpellCasting 19.png>)![](<SpellCasting 20.png>)
     - Regen globes (temporary)
 - Interesting items
     - Elemental interactions
@@ -223,7 +223,7 @@ Design
 
 # Enemies
 
-![](<img/SpellCasting 21.png>)
+![](<SpellCasting 21.png>)
 
 Each time you gain an element, the shadow of that element is released into the world. This causes new enemies to appear, using that shadow element. These elements will encourage the player to use the element in question as a counter to them
 
@@ -313,4 +313,5 @@ Water and Air: Light: darkness?
 - Swirl: heal and mana field
     - -> destroyable ball that heals both you and them after a delay
 
-For the extra extra curious, see the early development document here [Spellcasting Game (document for freaks)](https://docs.google.com/document/d/1MwCD4AOq0vDqkOD5l1Ary0EaokNBrQMlRZD9raH-Tvc/edit)
+For the extra extra curious, see the early development document here 
+[Spellcasting Game (document for freaks)](https://docs.google.com/document/d/1MwCD4AOq0vDqkOD5l1Ary0EaokNBrQMlRZD9raH-Tvc/edit)

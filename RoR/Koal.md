@@ -86,6 +86,6 @@ Simplify to 3 moves, every move in a combo changes the next combo
 
 # Ragon’s Sexy Concepts
 
-![](Public/img/Attachment%203.png)
+![](_Public/img/Attachment%203.png)
 
 ![](<Attachment 1 1.png>)
