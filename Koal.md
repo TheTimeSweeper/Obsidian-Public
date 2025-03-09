@@ -1,3 +1,4 @@
+meh this one didn't convert so well. [Koal](https://docs.google.com/document/d/19QxwHmiLL0ORkXkdVE_uowtixcsOHM6kjcGITx209XE/edit)
 # Combo attackin
 
 M1 and M2 are attack combos. Leaning toward action dmc-style whatevs with different moves, but not going the red mist input direction route to do it. We’ll do it somewhat like a fighting game
@@ -57,39 +58,28 @@ M1 and M2 are attack combos. Leaning toward action dmc-style whatevs with differ
 
 - So a combo is actually infinite if you keep alternating
 - Combos would look like
-    - 1 1 1 1 default sword
-    - 1 1 2 2 1 1 1 1 def sword → alt shield → alt sword
-    - 2 2 1 1 2 1 1 2 2 2 2 def shield → alt sword → alt shield → def sword → alt shield
-    - 1 2 1 1 2 1 2 1 2 1 1 1 etc
+    - 1a 1a 1a 1af default sword
+    - 1a 1a 2b 2b 1b 1b 1b 1bf def sword → alt shield → alt sword
+    - 2a 2a 1b 1b 2b 1a 1a 2b 2b 2b 2bf def shield → alt sword → alt shield → def sword → alt shield
+    - 1a 2a 1a 1a 2b 1a 2a 1a 2a 1a 1a 1af etc
 - You can just do 1 2 1 2 1 2 1 2 but you’re gonna run out of m2 stonks
     - So backup mags will extend how long you can combo
 
 ### Number 2 but every combo is personalized
 
-- Simplify to 3 moves, every move in a combo changes the next combo
-    - 1 1 1 spear set 1 - basic spammable combo
-
-Spirit orbs increase final hit range
-
-- - 2 1 1 1 spear set 2 - dazzling between enemies
-
-Spirit orbs increase amount of enemies dashed to?
-
-- - 2 2 1 1 1 spear set 3 - beyblade spin, repeated hits, lots of procs
-
-Spirit orbs increase number of spins
-
-- 2 2 2 shield set 1 - knocks enemies forward
-
-Spirit orbs shoot seeking projectiles
-
-- 1 2 2 2 shield set 2 - slam floor, big shockwave that gathers enemies in middle
-
-Spirit orbs give barrier per enemy hit
-
-- 1 1 2 2 2 shield set 3 - combine spear and shield big axe finisher
-
-Spirit orbs increase execution threshold
+Simplify to 3 moves, every move in a combo changes the next combo
+- 1a 1a 1af spear set 1 - basic spammable combo
+	- Spirit orbs increase final hit range
+- 2a 1b 1b 1bf spear set 2 - dazzling between enemies
+	- Spirit orbs increase amount of enemies dashed to?
+- 2a 2a 1c 1c 1cf spear set 3 - beyblade spin, repeated hits, lots of procs
+	- Spirit orbs increase number of spins
+- 2a 2a 2af shield set 1 - knocks enemies forward
+	- Spirit orbs shoot seeking projectiles
+- 1a 2b 2b 2bf shield set 2 - slam floor, big shockwave that gathers enemies in middle
+	- Spirit orbs give barrier per enemy hit
+- 1a 1a 2c 2c 2cf shield set 3 - combine spear and shield big axe finisher
+	- Spirit orbs increase execution threshold
 
 - That’s 18 moves
 - But really it’s only 6 combos. The finishers are the only moves that need to stand out. The others can be fodder to get there.
