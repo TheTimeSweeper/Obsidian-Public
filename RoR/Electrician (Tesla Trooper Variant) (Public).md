@@ -1,6 +1,6 @@
 # Electrician
 
-### Overviewe
+### Overview
 
 Electrician is setup-based survivor, building structures and chaining lightning between them.
 
