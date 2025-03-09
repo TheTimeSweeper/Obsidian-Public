@@ -14,13 +14,13 @@ Any contribution is a million percent appreciated.
 Things I’ve messed around with, concepted, and prototyped, but just don’t have the time/priority to really dive in and finish
 
 ### Cyberninja (Genji Overwatch) [$**500**]### 
-![](<img/Attachment 21.png>)
+![](<Attachment 21.png>)
 
 I've commissioned some aweosme ror2-fitting concept art and made a prototype. I'm a big overwatch weeb player and would love to make him real, but I haven't had the time
 
 ### Plague Knight [$**500**]
 
-![](<img/Attachment 2.gif>)
+![](<Attachment 2.gif>)
 
 One of my original fantasies. I maintain that he will happen some day but he's been on the back burner out of the amount of work it'd take.
 
@@ -28,7 +28,7 @@ I've made somewhat a prototype of bomb selecting and that's about it
 
 ### Katamari [$**300**]
 
-![](<img/Attachment 3.gif>)
+![](<Attachment 3.gif>)
 
 Yes really. The wife keeps telling me to do it.
 

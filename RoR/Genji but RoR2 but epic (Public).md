@@ -9,11 +9,11 @@ A Japanese man is at the brink of death, and is brought back to life using cyber
 New development: imp arm is still fuckin alive, reluctantly helping the guy go kill providence cause imps hate providence, but after learning he’s dead settle with killing mithrix
 ## Model
 
- ![failed to load image](<Attachment 1 1.png>)
+ ![failed to load image](<Attachment 1.png>)
 
 - Stlll needs a weapon
 - Possible Color reference
-- ![ok not final](<img/Attachment 2.png>)![i could live with it just kinda ugly](<Game/img/Attachment 3.png>)
+- ![ok not final](<Attachment 2.png>)![i could live with it just kinda ugly](<Game/img/Attachment 3.png>)
 
 ## Abilities (Current Prototype)
 
