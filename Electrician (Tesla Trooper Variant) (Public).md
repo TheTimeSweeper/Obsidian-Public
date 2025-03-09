@@ -12,7 +12,7 @@ Electrician leans more towards the building aspect, utilizing structures more an
 
 ### Sprites
 
-![[Attachment.png]] ![fuck](img/Attachment.png)![another fuck](img/Attachment.gif)![final fuck](<img/Attachment 1.gif>)
+[[Attachment.png]] ![fuck](img/Attachment.png)![another fuck](img/Attachment.gif)![final fuck](<img/Attachment 1.gif>)
 
 Huge credit to SkeletorChampion for the first draft of the character sprites, i.e. most of the design.
 

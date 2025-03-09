@@ -20,7 +20,7 @@ I've commissioned some aweosme ror2-fitting concept art and made a prototype. I'
 
 ### Plague Knight [$**500**]
 
-![](<Attachment 2.gif>)
+![](<img/Attachment 2.gif>)
 
 One of my original fantasies. I maintain that he will happen some day but he's been on the back burner out of the amount of work it'd take.
 
