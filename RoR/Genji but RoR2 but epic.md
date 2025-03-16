@@ -22,34 +22,28 @@ Download [Faceless Joe](https://thunderstore.io/package/TheTimesweeper/Faceless_
 - Pre SotS so idk how much of this is broken
 
 Primary- Shurikens:
-
 - Throw 3 shurikens. While sprinting, throw a fan of 3
     - You can sprint in all directions
 
 Secondary - Deflect
-
 - Deflect for a short duration, sending back projectiles, bullet attacks, and hard coded special case for golem lasers
     - Just makes you completely invincible. Not even taking direction into account
 
 Utility - Dash
-
 - Reset on kills and assists
 
 Special - Dragonblade
-
 - Pull out [dragon]blade and do big melee swipes with joe’s shitty hitboxes
 - Built up by dealing damage like overwatch (cooldown is 20 “seconds” and doesn’t recharge automatically. “Time” only recharges when damage is dealt)
 
 ## Abilities (Planned)
 
 Primary:
-
 - Throw 3 shurikens while holding, throw 3 in a fan while mashing (see [Alien Hominid](https://thunderstore.io/package/TheTimesweeper/Alien_Hominid/) for how this feels)
     - Cut sprinting in all directions
 - imp overlord darts instead of shurikens
 
 Secondary:
-
 - Hella needs networking
 - I’m sure only deflecting in front of you would be best, but full invincible is easier and completely workable
 - Current detection for projectiles is kinda shoddy (old Enforcer code). They should be detected when they impact the hurtbox, not detected by distance, as large projectiles will often not get deflected
@@ -57,19 +51,16 @@ Secondary:
 - Big area overlay
 
 Utility:
-
 - Basically done, just needs tuning
 - Unsure if assist system is networked
 - Weird red effect from imp teleporting but dashy
 
 Special:
-
 - Need to set stock to 0 in the skilldef OnAssigned
 - Unsure if damage building up is networked
 - Final slash shatters the blade (shatterspleen explosion)
 
 Misc:
-
 - Probably add bleed to utility, special, and maybe primary cause that’s a big thing about Imps.
 - Not sure what to do about a blade. That’s missing from the concept
     - One idea is some kind of small energy sword used for deflecting, that gets amplified during “dragon”blade
@@ -78,20 +69,14 @@ Misc:
     - Cyborg is pretty taken, also too generic
 
 ### Alts
-
 Alt Special - [X-Strike from Heroes of the Storm](https://youtu.be/-SJgvzPRFEI?si=_TMt_v4r0jrWREuV&t=136)
-
 - Two big slashes in the ground in a big X, then slam down the full X
 - Not built up by damage, if people want a more consistent non-ultimate special
 
 Anything else you can think of!
-
-## 
-
 ## Animations
 
 Main Animations
-
 - Idle
 - Run (fwd, left, right, back)
 - Sprint
@@ -99,19 +84,16 @@ Main Animations
 - Lobby (intro, idle)
 
 Polish/Legitness
-
 - Aim pitch, yaw
 - idle in (suddenly stop running -> idle)
 - jump up (very quick)
 - landing impact (additive)(should start from the character's idle pose)
 
 Optional
-
 - Airborne lean poses (fwd, left, right, back, neutral)
 - Sprint Left, Right
 
 Skills
-
 - Primary
     - Throw 3 darts in a row
     - Throw fan of 3 darts at once
