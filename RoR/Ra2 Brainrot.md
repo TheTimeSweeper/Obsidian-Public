@@ -172,10 +172,9 @@ Not ra2. Ra3 sneaking in
 - M4 - Cryo Bombardment from drones in a line, can be cast during util
 # Rocketeer
 Challenge to design a full flight character, adding tradeoffs to the freedom of flying (which usually makes things boring) by making you need to get close
-- No jump. Just free flight
-- No fuel limit or nothing
+- Passive - No jump. Just free flight
+	- No fuel limit or nothing
 	- Feathers and quails? uhhhhhhh
-
 - M1 - dual pistols, falloff
 - M2 - explosion around you/dive bomb
 - M3 - uh pharah boost? Probably omnidirectional
