@@ -78,53 +78,55 @@ Spent too much time in the in-between, too much fucking with time and positions 
 "Clones" of you from different points of time
 - passively every move you do is repeated like second later by another spectre of you
 - different moves have different durations that the clone stays around, so you can combo them in different ways
+
 "Shades" of you from different points in time appear around you doing different actions. 
 - Choose a shade and you take over that timeline, performing the action it was doing
 # **GI**
-M1 shoot gun
-M2 caltrops that slow
-M3 slide
-M4 barricade. Can’t move but abilities are empowered
-- M1 shoot gun big
-- M2 mine that stuns
-- M3 no change that’s it no more complication
+- M1 shoot gun
+- M2 caltrops that slow
+- M3 slide
+- M4 barricade. Can’t move but abilities are empowered
+	- M1 shoot gun big
+	- M2 mine that stuns
+	- M3 no change that’s it no more complication
 
 Since I just wrote the code for it
-Alt m1 rocket (well I didn’t write the code for this one :P)
-Alt m1 barricade big guardian gi rocket
+- Alt m1 rocket (well I didn’t write the code for this one :P)
+- Alt m1 barricade big guardian gi rocket
 
 # Conscript
 ### Initial Prototype
-M1: shoot gun
-- real beefy and strong but has to reload
-M2: molotov
-- prototyped just throwing the in-game molotov, all we need to do is clone that projectile and edit it's speed so it throws further, and increase its fire pool radius real big
-M3: armor and move speed buff
-- prototyped just applying a buff, _maybe_ should rally in an area
-M4: garrison providing a buff in a small area
-- lowers/removes reload time on m1, sets m2 stocks to max on first gaining buff
+- M1: shoot gun
+	- real beefy and strong but has to reload
+- M2: molotov
+	- prototyped just throwing the in-game molotov, all we need to do is clone that projectile and edit it's speed so it throws further, and increase its fire pool radius real big
+- M3: armor and move speed buff
+	- prototyped just applying a buff, _maybe_ should rally in an area
+- M4: garrison providing a buff in a small area
+	- lowers/removes reload time on m1, sets m2 stocks to max on first gaining buff
 ### Current Beta
-M1: shoot gun
-- real beefy and strong but has to reload
-M2: molotov
-- can be shot midair to explode
-M3: charge
-- repositions garrisons
-M4: garrison/bunker providing a buff in a small area
-- lowers/removes reload time on m1, sets m2 stocks to max on first gaining buff
+- M1: shoot gun
+	- real beefy and strong but has to reload
+- M2: molotov
+	- can be shot midair to explode
+- M3: charge
+	- repositions garrisons
+- M4: garrison/bunker providing a buff in a small area
+	- lowers/removes reload time on m1, sets m2 stocks to max on first gaining buff
 
-He's meant to mirror GI like in the original games, them being the basic units of both factions
+- Alt M1 flak trooper
+	- Hitscan poof in an area (should be able to use chrono m1 code)
+- Alt M2 terror drone
+	- Engi spider mine but latches on becomes a weakpoint that you shoot to explode
+
+He's meant to mirror GI like in the original games, them being the basic units of both factions  
 So they both do
-m1 basic gun
-m2 basic projectile
-m3 movement
-m4 empower m1 and m2
-
-Alt M1 flak trooper
-- Hitscan poof in an area (should be able to use chrono m1 code)
-Alt M2 terror drone
-- Engi spider mine but latches on becomes a weakpoint that you shoot to explode
+- m1 basic gun
+- m2 basic projectile
+- m3 movement
+- m4 empower m1 and m2
 # Prisma trooper inspired by tesla
+
 - M1 head beam in a flat cone
     - hold to charge, increasing damage and width of cone
         - Quick charges will have overall more dps on single targets. Charging up will be better for crowds but slower
@@ -145,58 +147,57 @@ Alt M2 terror drone
     - Instead of slower big damage, multiple instances of faster damage, better procs, etc
 
 # Yuri
-M4 control multiple enemies.
-- Can do at full health, limited time
-- Chirr but epic
-M2 psi blast at self and all enemies,
-- hurts enemies and controlled allies. This is how you fight enemies. You damage them while they’re under your control before you lose them
-M3 swap places with a controlled enemy
-No m1? M1 is mind control?
-M1 or M4 is some kind of knockback, so you can control the positioning of enemies and controlled allies
-Maybe psychokinesis
+- M4 control multiple enemies.
+	- Can do at full health, limited time
+	- Chirr but epic
+- M2 psi blast at self and all enemies,
+	- hurts enemies and controlled allies. This is how you fight enemies. You damage them while they’re under your control before you lose them
+- M3 swap places with a controlled enemy
+- No m1? M1 is mind control?
+- M1 or M4 is some kind of knockback, so you can control the positioning of enemies and controlled allies
+- Maybe psychokinesis
 
 Yuri + brute combo to fill out skill slots
-M1 brute slam
-M2 yuri psi blast self and all controlled enemies
-M3 brute leap slam
-M4 yuri mind control
+- M1 brute slam
+- M2 yuri psi blast self and all controlled enemies
+- M3 brute leap slam
+- M4 yuri mind control
 
 # Cryo Legionnaire
 Not ra2. Ra3 sneaking in
-M1 - Freeze: cryo spray, assisted by two drones accompanying you (not autonomous)
-- mei freeze after a bit
-M2 - Focus a beam and drones on a single target. If they are frozen, explode, chain reaction
-M3 - rocket up in the sky, recast to crash, starts floating down after a couple seconds if not recast, then loses altitude faster than Arti's hover
-M4 - Cryo Bombardment from drones in a line, can be cast during util
+- M1 - Freeze: cryo spray, assisted by two drones accompanying you (not autonomous)
+	- mei freeze after a bit
+- M2 - Focus a beam and drones on a single target. If they are frozen, explode, chain reaction
+- M3 - rocket up in the sky, recast to crash, starts floating down after a couple seconds if not recast, then loses altitude faster than Arti's hover
+- M4 - Cryo Bombardment from drones in a line, can be cast during util
 # Rocketeer
 Challenge to design a full flight character, adding tradeoffs to the freedom of flying (which usually makes things boring) by making you need to get close
+- No jump. Just free flight
+- No fuel limit or nothing
+	- Feathers and quails? uhhhhhhh
 
-No jump. Just free flight
-No fuel limit or nothing
-- Feathers and quails? uhhhhhhh
-
-M1 - dual pistols, falloff
-M2 - explosion around you/dive bomb
-M3 - uh pharah boost? Probably omnidirectional
-M4 - ???
+- M1 - dual pistols, falloff
+- M2 - explosion around you/dive bomb
+- M3 - uh pharah boost? Probably omnidirectional
+- M4 - ???
 
 # MCV, yes really
 Prototype:
-ideally proper top down camera and mouse cursor but for prototype just pull up the camera real high and aim
-Huntresstracker component to seek all characters
+- ideally proper top down camera and mouse cursor but for prototype just pull up the camera real high and aim
+- Huntresstracker component to seek all characters
 - M1 selects allies
 - M2 selects their target
 - M3 structure menu?
-    - Prototype: nothing
+	- Prototype: nothing
 - M4 unit menu
-    - Prototype: summon random survivor
+	- Prototype: summon random survivor
 - Target chests to make them open them
 - Inventory is shared between all units
 
 Potential is truly infinite here. Could add an actual resource system for buying units, repairing self, buying structures and selling them to reposition. All ears for any ideas
 # Steel Ronin
 Or any of the other weeb units
-Maybe as bosses/golem-tier big enemies
+- Maybe as bosses/golem-tier big enemies
 # Other Content
 - Purchasable terror drone
     - Maybe enemy
