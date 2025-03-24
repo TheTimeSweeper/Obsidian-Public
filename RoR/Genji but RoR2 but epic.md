@@ -18,7 +18,6 @@ New development: imp arm is still fuckin alive, reluctantly helping the guy go k
 ## Abilities (Current Prototype)
 
 Download [Faceless Joe](https://thunderstore.io/package/TheTimesweeper/Faceless_Joe/) and enable cursed config
-
 - Pre SotS so idk how much of this is broken
 
 Primary- Shurikens:

@@ -178,7 +178,12 @@ Challenge to design a full flight character, adding tradeoffs to the freedom of 
 - M1 - dual pistols, falloff
 - M2 - explosion around you/dive bomb
 - M3 - uh pharah boost? Probably omnidirectional
-- M4 - ???
+	- boost on a fuel limit, recharges faster on ground
+	- doesn't limit free flight, but rather expands on the free flight
+- M4 - ??
+- possibly something that is horizontal and has to be channeled, making you stay in danger range
+- ~~could be primary knocks you back, so naturally doing it downwards propels you upwards, making the falloff worse, so you want to stay level or even on the ground~~
+	- neh the whole fuckin point of being a rocketeer is raining fire below
 
 # MCV, yes really
 Prototype:
