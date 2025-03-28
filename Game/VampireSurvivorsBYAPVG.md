@@ -9,9 +9,9 @@ Roguelite horde slaying game in the vein of Vampire Survivors where you progress
 But you actually play the video game, hopefully increasing engagement, interest, and making the flow of dopamine from killing things amplified by the fact that you actually do it.
 
 Vampire Survivors But Not Boring  
-Vampire Survivors But You Actually Play the Video Game (BYAPBVG for short)
+Vampire Survivors But You Actually Play the Video Game (BYAPVG for short)
 
-everything below is up for discussion of course
+Everything below is up for discussion of course
 ## Gameplay
 - move with wasd, 
 - character kits are simplified to 3 abilities (2 abilities + utility)
@@ -70,6 +70,7 @@ I would like to be somewhere around 3
 - a somewhat authored world where we place landmarks and such, but the paths in between are randomized/generated
     - whether that be fully procedural environments, or authored rooms that are randomly put together
 
+___ 
 # Brainstorming/Mind vomit
 ## what makes you play the video game?
 - NO autoplay? sounds like a fun challenge
