@@ -5,7 +5,7 @@ But You Actually Play the Video Game
 # DD 0
 ### Elevator Pitch:
 Roguelite horde slaying game in the vein of Vampire Survivors where you progress in power until you're destroying everything on screen and all you can see is vfx and damage numbers,
-But you actually play the video game, hopefully increasing engagement, interest, and making the flow of dopamine rush from killing things amplified by the fact that you actually do it.
+But you actually play the video game, hopefully increasing engagement, interest, and making the flow of dopamine from killing things amplified by the fact that you actually do it.
 
 Vampire Survivors But Not Boring
 Vampire Survivors But You Actually Play the Video Game (BYAPBVG for short)
