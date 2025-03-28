@@ -5,9 +5,10 @@ But You Actually Play the Video Game
 # DD 0
 ## Elevator Pitch:
 Roguelite horde slaying game in the vein of Vampire Survivors where you progress in power until you're destroying everything on screen and all you can see is vfx and damage numbers,
+
 But you actually play the video game, hopefully increasing engagement, interest, and making the flow of dopamine from killing things amplified by the fact that you actually do it.
 
-Vampire Survivors But Not Boring
+Vampire Survivors But Not Boring  
 Vampire Survivors But You Actually Play the Video Game (BYAPBVG for short)
 
 everything below is up for discussion of course
@@ -27,6 +28,7 @@ top down isometric
 
 **Problem:**
 - This sucks for leveraging the 3d talent we have and the details I want you to be able to go ham with
+
 **Solutions?**
 - show off our cool models and animations in other places
     - character select
@@ -50,17 +52,17 @@ top down isometric
 - I'm sure we'll still have an assortment of items that apply to each character, like every primary sends out a shockwave, or utility stuns nearby
     - important stuff like health and move speed or so but we can decide what that is
 ## Theme
-help
+help  
 I have 0 opinion. what you guys got going is cool
 ## World
-help
-some options I've thought of on a scale
-1: Full random generation
-5: Rogue Legacy
-- the world has general beats (forest to the east, mountains to the north), but within those realms it's randomly generated
-10: Fully authored
-- fully authored levels you explore (I think vampire survivors does this)
-11: one big open world if you're crazy
+help  
+some options I've thought of on a scale  
+- 1: Full random generation
+- 5: Rogue Legacy
+    - the world has general beats (forest to the east, mountains to the north), but within those realms it's randomly generated
+- 10: Fully authored
+    - fully authored levels you explore (I think vampire survivors does this)
+- 11: one big open world if you're crazy
 
 I would like to be somewhere around 3
 - a somewhat authored world where we place landmarks and such, but the paths in between are randomized/generated
