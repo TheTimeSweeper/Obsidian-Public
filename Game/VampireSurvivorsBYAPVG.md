@@ -3,7 +3,7 @@ But You Actually Play the Video Game
 [[_New Game is a silly anime#Vamp]]
 
 # DD 0
-### Elevator Pitch:
+## Elevator Pitch:
 Roguelite horde slaying game in the vein of Vampire Survivors where you progress in power until you're destroying everything on screen and all you can see is vfx and damage numbers,
 But you actually play the video game, hopefully increasing engagement, interest, and making the flow of dopamine from killing things amplified by the fact that you actually do it.
 
@@ -11,9 +11,7 @@ Vampire Survivors But Not Boring
 Vampire Survivors But You Actually Play the Video Game (BYAPBVG for short)
 
 everything below is up for discussion of course
-### Gameplay
-top down isometric
-- we can try something else but for some reason this is just what people want
+## Gameplay
 move with wasd, m1 m2 space for abilities
 - character kits are simplified to 3 abilities
     - M1: main ability, primary, hold the button and kill things
@@ -23,7 +21,23 @@ move with wasd, m1 m2 space for abilities
 - character abilities get upgrades unique to each character
 - Idea: M1 and M2 have respective ultimate bars that are built up by doing damages
     - when full, simply cast it to use it
-####  Run progression
+### Visuals
+top down isometric
+- we can try something else but for some reason this is just what people want
+
+**Problem:**
+- This sucks for leveraging the 3d talent we have and the details I want you to be able to go ham with
+**Solutions?**
+- show off our cool models and animations in other places
+    - character select
+    - cutscenes
+    - zoom in on ultimate animations
+- start each run zoomed in, gradually zoom out
+    - at the beginning of the run you can look at the character and go “cool that’s my guy” and get to see the cool animations
+    - as the run progresses, you’re going to be looking at your character less anyway, in favor of all the shit that’s going on around you
+- the dota 2 character portrait in the ui?
+    - ![](<_img/BYAPVG 1.png>)
+###  Run progression
 "I figure by current year, human society has progressed past the point where it needs to have roguelike upgrades explained to it"
 - passive items like risk of rain or any other roguelike probably
     - the boring shit
@@ -35,22 +49,10 @@ move with wasd, m1 m2 space for abilities
         - this ability doesn't really make sense with backup mags? This character doesn't need those!
 - I'm sure we'll still have an assortment of items that apply to each character, like every primary sends out a shockwave, or utility stuns nearby
     - important stuff like health and move speed or so but we can decide what that is
-### Theme
+## Theme
 help
 I have 0 opinion. what you guys got going is cool
-### Visuals
-#### Problem
-Genre generally stays to zoomed-out top-down isometric
-This sucks for leveraging the 3d talent we have and the details I want you to be able to go ham with
-#### Solutions?
-show off our cool models in other places
-- character select
-- cutscenes
-- zoom in on ultimate animations
-start each run zoomed in, gradually zoom out
-- at the beginning of the run you can look at the character and go “cool that’s my guy” and get to see the cool animations
-- as the run progresses, you’re going to be looking at your character less anyway, in favor of all the shit that’s going on around you
-### World
+## World
 help
 some options I've thought of on a scale
 1: Full random generation
