@@ -1,0 +1,231 @@
+But You Actually Play the Video Game
+[[_New Game is a silly anime#Vampire survivors but you actually play the video game X Wizard of Legend]]
+[[_New Game is a silly anime#Vamp]]
+# Pre dev
+## what makes you play the video game?
+- NO autoplay? sounds like a fun challenge
+- WoL style augmenting your abilities rather than VS style passive shit constantly happening without buttons being pressed
+## world
+- on a scale of 5: true random, 3: rogue legacy, 1: full authored, we're at 2
+- general beats of the world are authored, but the parts in between are randomly generated
+	- but at a higher density than Rogue Legacy
+- Ultimate Hookah Universe? (UHU (pronounced yoohoo))
+	- if people don't like that I can just leverage the UHU world ideas into this world without any of the hookah stuff
+		- maybe secretly be like this world is part of that world all along, just has nothing to do with --that guy's-- quest
+			- --who's that guy? Sharmout? Abboos? Sweeper? not a cringy self-insert?
+			- wait yeah that's kind what all the games have been. just environments and landmarks that exist in the world that That Guy might travel to on his quest, but the story can be entirely different.
+## Cartoon1st
+- 2D guys in a 3D world? So I can leverage my 3D friends as well?
+- maybe 3D player characters as that's where my amazing talent will come in handy and 2D enemies, so cartoon1st gets to draw many creatures and doesn't have to animate as much
+	- ("my talent" as in my friends that I call talent. not any talent that I have)
+- could be forcing this too much and it's not meant to be
+- could simply have cartoon1st draw the concepts and have good ass 3D models made of them
+## able to rotate the camera?
+- something to make us stand out from the fuckin plethora of top-down things, without fully needing to go 3rd person
+- can have shooty man 
+## theme idea each run is a clone
+somewhat like rogue legacy, upgrading your stats is upgrading your base
+each mission you are sending clones of whatever character you choose down to the battlefield
+helldiver pods?
+## wars its inspirations on its sleeve
+vamp is very very clearly castlevania
+halls of torment is very very clearly diablo
+what do I do? very very clearly risk of rain?
+## characters 
+- [[_New Game is a silly anime#char]]
+- ideas
+	- koal comboer
+	- shooty man
+	- BPM person
+	- perhaps one auto guy
+- this means we're in RoR2 territory where each class is essentially playing a different fuckin game
+	- but that comes with all the RISK HAHA GET IT RISK that comes with that design
+## how many inputs? variable? ror2 4 skills?
+- m1 m2 shift space are def
+- how sweaty do I wanna be? m1 m2 shift + 1 2 3 4?
+	- think I want to generally go not too crazy. this isn't a sweat multiplayer PVP game it's a fun but cool and satisfying top down destroy a ton of people game
+- thinking m1 m2 abilities, space generally movement, shift and we're fucked
+	- do we jump? that's another animation per character but can introduce some cool ass shit
+		- well
+		- maybe some characters can jump
+- do I want to challenge the dodge convention?
+	- well
+	- maybe some characters can jump
+- so m1 m2 shift
+	- space is dodge or jump or block for beefy characters or 
+- probably not an ulti button. think each skill can upgrade to an ulti version a la wizard of legend but any button
+- so like - m1 and m2 are the most fun to press. they're your general basics your creme de la creme
+	- shift is a weird one cause it's also easiest to press, but not nearly as readily available to the mind as m1 m2 or even space
+	- space is easy to press as well, but has a very strong paradigm of being some kind of movement
+- maybe 1 2 3 4 are vampire survivor style weapon trinkets that anyone can use
+	- nah I think that's too much. I think adding passive boosts on your existing abilities are better
+- however maybe just 1/2/q/e/r/f and 1/2/q/e/r/f
+	- WoL proved that 6 is pretty manageable. 
+		- it is a bit pushing it. when you get 6 you're essentially just spamming them all
+		- I think I want more deliberation on how you use your abilities NVM THIS IS THE BLOW THROUGH CROWDS GAME yeah I guess tacking on more abilities for you to spam is cool
+		- but
+		- unique characters
+		- yeah nvm
+- this is the kind of shit that I should have hashed out while walking. can't wait for summer so I can think through this stuff
+### k let's experiment with some of this
+- commando
+	- moves
+		- shoot
+		- phase round
+		- phase blast
+		- suppressive fire
+		- die die die
+		- other weapons grenade explosives what have you
+	- basically decided
+		- m1 shoot
+		- m2 phase round?
+	- space dodge
+		- shift uh
+	- shift dodge?
+		- space uh
+	- 1 & 2 other moves
+		- space dodge
+			- shift uh
+	- space jump?
+		- shift dodge
+		- jumping is fun right
+		- fuck I need another walk
+- koal comboer
+	- m1 m1
+	- m2 m2
+	- shift dodge
+	- space jump and do more combos
+	- ok this is NOT a cartoon1st moment idk
+- BPM er (what the fuck this means i have no idea it could be any of the other characters maybe I'll skip this)
+- Beefy lady
+	- m1 m1
+	- m2 slam
+	- shift spin
+	- space parry
+- spellcaster
+	- m1 m1
+	- m2 m2
+	- shift invoke
+	- space invoke
+- schmover
+	- m1 swing
+	- m2 spin
+	- shift dash
+	- space another dash
+- SnS
+	- m1 swing
+	- m2 swing2
+	- shift block
+	- space slam?
+- AoE spammer
+	- m1 throw bomb
+	- m2 explode around you
+	- shift goo into your irradiated area this became desolator
+	- space uh
+- Tesla Trooper
+	- m1 lightning
+	- m2 blast, ulti tower
+	- shift lightning dash
+	- space util
+- Genji
+	- m1 shuriken
+	- m2 sword
+	- shift dash
+	- space deflect
+- I now want an ulti button
+- wait nvm I wanted all to be ulti
+- am I converging on everyone gets two utilities?
+### let's try 3 abilities
+- commando
+	- m1 shoot -> shoot pierce -> ulti rapid fires and spreads
+	- m2 grenade? -> ulti clusters
+	- space dodge -> does this progress as well?
+- koal comboer
+	- m1 m1
+	- m2 m2
+	- space jump to avoid or do more combos
+- BPM er (what the fuck this means i have no idea it could be any of the other characters maybe I'll skip this)
+- Beefy lady
+	- m1 m1
+	- m2 spin
+	- space parry
+- spellcaster
+	- m1 fireball
+	- m2 otherball
+	- space blink
+	- first cast decides the slot, other 2 casts decide what spell it is
+		- it goes into that slot for x uses?
+		- wait just make it cast at the 3rd press
+	- `1 1 1, 1 1 2, 1 2 1, 1 2 2`
+	- `2 1 1, 2 1 2, 2 2 1, 2 2 2`
+	- maybe just `1 1, 1 2, 2 1, 2 2`
+- schmover
+	- m1 swing that travels with you
+	- m2 explode
+	- space dash
+- SnS
+	- m1 swing
+	- m2 block
+	- space shield bash dash smash
+- AoE spammer
+	- m1 throw bomb
+	- m2 explode around you
+	- shift goo into your irradiated area this became desolator
+- Tesla Trooper
+	- m1 lightning
+	- m2 blast, ulti tower
+	- space util
+- Electrician
+	- m1 zap
+	- m2 throw pylon
+	- space zap to pylon (/enemies?)
+- Genji
+	- m1 shuriken
+	- m2 sword swipe that can deflect
+	- space dash
+- Ashe
+	- m1 shoot
+	- m2 aim and shoot better
+	- space whip and pull self
+- flyer 
+	- m1 nothing on ground, laser in air (vulture bombing run fuck yea)
+	- m2 nothing on ground bomb in air
+	- space jump and fly. probably simply limit this lol
+- stance switcher
+	- melee form 
+		- m1 pummel
+		- m2 hmm
+		- space block
+	- not melee form
+		- m1 shoot
+		- m2 hmm
+		- space shield (rammatra)?
+	- how switch
+		- swaxe one of the buttons is attack and switch?
+	- k why are we switching
+		- rammatra is like a cool hybrid brawl and long range and the forms can overlap and w/e
+		- viend is a cool uncontrollable thing and it's a rage mode
+		- nemforcer is a switch between brawling and long range as well
+		- so yeah brawling vs long range
+		- oh swaxe is one form builds up meter for the other form to spend
+		- but yeah probably brawling vs long range
+			- what does that doooo
+			- think players kinda like the flexibility and adaptability needed
+				- is my interaction with enemies going to require that?
+- the life stealer
+	- ok does this game have danger
+	- vamp does, like taking damange and getting damage resist is defintiely a thing
+- kiter
+	- actively pulls enemies to him, gathering them up
+	- tilt to lives them
+	- leaves aoe zones behind to drag them into
+### hmm
+- seemed to be a bit more successful with that one but like damn I have a whole other button idk what to do with now and I'm kinda upset I wasn't able to use it to its fullest yknow
+- alright then, guess we got equipments
+	- for the later reading this, I'm not in love with this
+- shift is the ulti button?
+	- weird to dedicate a whole button to two buttons
+	- unless we have util be ultiable as well
+	- maybe ulti is just passive
+	- do we have cooldowns?
+- the benefit I've gotten out of this is to ditch the common m1 m2 philosophy of m2 being m1 souped up

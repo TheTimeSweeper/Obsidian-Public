@@ -15,12 +15,58 @@ overall same
 - M4 tower. Periodically zaps all pylons in a large radius X times then goes away.
 ### Variant: Nemesis
 - What to keep: lightning, close-mid range bruiser
-- What to twist: Tower -> Energy Meter
-    - Dead tesla trooper brought back using tower parts
-    - Instead of occasionally being empowered by the tower, you have an energy meter you can occasionally consume segments of to empower your skills
-### Variant: Overheating (SkeletorChampion)
-- Overuses the lightning, at which point he overheats
-- Overheat is weaponized, switching skills to heated versions that "spend" heat to vent it out
+- ~~What to twist: Tower -> Energy Meter~~
+    - ~~Dead tesla trooper brought back using tower parts~~
+    - ~~Instead of occasionally being empowered by the tower, you have an energy meter you can occasionally consume segments of to empower your skills~~
+- What to twist: Tower -> Heat Meter (SkeletorChampion)
+	- Overuses the lightning, at which point he overheats
+	- Overheat is weaponized, switching skills to heated versions that "spend" heat to vent it out
+#### Passive:
+- [Stress] abilites build up heat. Building up too much heat causes you to Overheat, changing your abilities to [Vent] versions that expend the heat
+- *heat does not dissipate once you're overheated, you have to use moves*
+- *in general, primary builds/vents heat slowly but surely*
+- *secondary vents/builds heat opposite in a decent chunk so you can stay in either form*
+- *utility is utility lol*
+- *special is a flanderized version of the form, building/venting a TON of heat to get you to the other form quick if you want*
+
+#### Default set:
+- Generally single-target damage
+- M1: [Stress 10/s] Channel lightning
+	- continuously build heat and shoot lightning forward
+		- the longer it's held, the further it goes
+	- let go to build a chunk of heat and shoot a lightning bolt at the tip
+	- *generally higher DPS when spammed more often, building more heat.* 
+	- *better at longer range when charged, but builds heat while charging, so you get less damage out of the heat built, and builds heat slower* 
+- M2: [Vent 30] Hammer slam
+	- expend some heat and slam hammer down, leaving fire zones (or pillars of fire) on the ground in a line in front of you
+	- underflows, if not enough heat, the distance or damage (probably damage) is lowered
+		- that or just have a heat requirement, yeah that's probably simpler
+	- *a good, more single-targed version of a heated move*
+	- *I like the flipped one being on secondary, you can really balance primary and secondary if you want to stay in either form, nicely done*
+- M3: [Stress 10, 10/hit] Tesla util
+	- shield yourself in a layer of electricity. hits are absorbed and generate heat
+	- *Unsure about this one because shielding damage is better for short-range design. will still give it a try first to see. Maybe it'll see use by letting you go into crowds, generate heat, overheat then use aoe moves on them*
+	- *should it last after you're already overheated?*
+- M4: [Stress 50] Big Shock
+	- generate a large amount of heat one heavy overcharged bolt on a single target
+	- *basically the whole-ass tower move*
+
+#### Overheated set:
+- more AoE, overall higher damage
+- M1: [Vent 10/s] Hot air
+	- continuously vent superheated air at targets in front of you, adding stacks of overheat
+	- with enough overheat stacks, the air around them is superheated into plasma, causing an explosion that applies overheat as well
+- M2: [Stress 10, 10/bounce] Hammer Slam
+	- Generate a chunk of heat to charge the hammer and slam it down, bouncing lightning on nearby enemies
+	- lightning can bounce back to you generating more heat for each bounce received
+	- *basically unchanged from your idea. both your hammer moves were*
+		- *a hit*
+- M3: [Vent 15] Short Dash
+	- Vent a small amount of heat to quickly reposition, 3 charges
+	- *spends a small, controlled amount of heat when used once to reposition your AoEs, but if you need to use it all 3 times in a sticky situation, you're missing out on damage that heat could have been used for*
+- M4: [Vent, 20/s] Oven (toggled)
+	- spend heat at a high rate to vent superheated air all around you, creating a large overheating zone
+	- *primary triggers overheated stacks, so can be used alongisde primary to spend heat fast and deal a lot of chain aoe*
 # Desolator
 ## Main Kit
 Nice

@@ -48,3 +48,11 @@ M3 Sword and shield
 M4 Axe
 
 M1 weapon strings using the last weapon casted in the other skills
+## Faceless Joe
+[[ror Simple Stupid The Game]]
+
+## Super Infestor Enemy
+jumps into enemy, forces them to use a unique attack for each enemy at the cost of its own life
+- go into a beetle, charge as hard as you can and crush its skull
+- go into an imp, tear through the fabric of reality, ripping everyone and the imp apart in the process
+- go into golem, keep charging the laser til it overloads and blows its own head of shooting it
