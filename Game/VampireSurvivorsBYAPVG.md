@@ -13,15 +13,29 @@ Vampire Survivors But You Actually Play the Video Game (BYAPBVG for short)
 
 everything below is up for discussion of course
 ## Gameplay
-move with wasd, m1 m2 space for abilities
-- character kits are simplified to 3 abilities
-    - M1: main ability, primary, hold the button and kill things
-    - M2: secondary ability, possibly cooldown
-    - M1 and M2 forget the guidlines above just make them anything
-    - Space: utility, always a defense option (movement, sustain, CC). the button you press when you are about to get hit
-- character abilities get upgrades unique to each character
+- move with wasd, 
+- character kits are simplified to 3 abilities (2 abilities + utility)
+    - M1: primary ability, hold the button and kill things
+    - M2: secondary ability, please not just primary but boosted
+    - M1 and M2: forget the guidlines above just make them anything
+    - Space: utility, always a defense option (movement, sustain, CC). 
+        - the button you press when you are about to get hit
+- Character abilities get upgrades unique to each character (see [[#Run Progression]] below)
 - Idea: M1 and M2 have respective ultimate bars that are built up by doing damages
     - when full, simply cast it to use it
+###  Run Progression
+"I figure by current year, human society has progressed past the point where it needs to have roguelike upgrades explained to it"
+- passive items like risk of rain or any other roguelike probably
+    - the boring shit
+- but fuck that, every character gets unique upgrades to their skills
+    - each skill essentially has its own skill tree you can progress through as you upgrade
+    - allows us to really tune the experience of each character
+        - This character kit doesn't really work with attack speed? Well they just don't get attack speed!
+        - This ability doesn't really make sense with backup mags? This character doesn't need those!
+        - Want to give this character 5 more dashes? You can! and don't have to balance 5 dashes on every character!
+- I'm sure we'll still have an assortment of items that apply to all characters
+    - I would like these to not be autoplay, like every primary sends out a shockwave, or utility stuns nearby, or all damage burns
+    - important stuff like health and move speed or so but we can decide what that is
 ### Visuals
 top down isometric
 - we can try something else but for some reason this is just what people want
@@ -39,18 +53,6 @@ top down isometric
     - as the run progresses, you’re going to be looking at your character less anyway, in favor of all the shit that’s going on around you
 - the dota 2 character portrait in the ui?
     - ![](<_img/BYAPVG 1.png>)
-###  Run progression
-"I figure by current year, human society has progressed past the point where it needs to have roguelike upgrades explained to it"
-- passive items like risk of rain or any other roguelike probably
-    - the boring shit
-- but fuck that, every character gets unique upgrades to their skills
-    - each skill essentially has its own skill tree you can progress through as you upgrade
-        - more bullets, 
-    - allows us to really tune the experience of each character
-        - this character kit doesn't really work with attack speed? Well they just don't get attack speed!
-        - this ability doesn't really make sense with backup mags? This character doesn't need those!
-- I'm sure we'll still have an assortment of items that apply to each character, like every primary sends out a shockwave, or utility stuns nearby
-    - important stuff like health and move speed or so but we can decide what that is
 ## Theme
 help  
 I have 0 opinion. what you guys got going is cool
@@ -68,7 +70,7 @@ I would like to be somewhere around 3
 - a somewhat authored world where we place landmarks and such, but the paths in between are randomized/generated
     - whether that be fully procedural environments, or authored rooms that are randomly put together
 
-# Pre dev
+# Brainstorming/Mind vomit
 ## what makes you play the video game?
 - NO autoplay? sounds like a fun challenge
 - WoL style augmenting your abilities rather than VS style passive shit constantly happening without buttons being pressed
