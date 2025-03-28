@@ -1,6 +1,69 @@
 But You Actually Play the Video Game
 [[_New Game is a silly anime#Vampire survivors but you actually play the video game X Wizard of Legend]]
 [[_New Game is a silly anime#Vamp]]
+
+# DD 0
+### Elevator Pitch:
+Roguelite horde slaying game in the vein of Vampire Survivors where you progress in power until you're destroying everything on screen and all you can see is vfx and damage numbers,
+But you actually play the video game, hopefully increasing engagement, interest, and making the flow of dopamine rush from killing things amplified by the fact that you actually do it.
+
+Vampire Survivors But Not Boring
+Vampire Survivors But You Actually Play the Video Game (BYAPBVG for short)
+
+everything below is up for discussion of course
+### Gameplay
+top down isometric
+- we can try something else but for some reason this is just what people want
+move with wasd, m1 m2 space for abilities
+- character kits are simplified to 3 abilities
+    - M1: main ability, primary, hold the button and kill things
+    - M2: secondary ability, possibly cooldown
+    - M1 and M2 forget the guidlines above just make them anything
+    - Space: utility, always a defense option (movement, sustain, CC). the button you press when you are about to get hit
+- character abilities get upgrades unique to each character
+- Idea: M1 and M2 have respective ultimate bars that are built up by doing damages
+    - when full, simply cast it to use it
+####  Run progression
+"I figure by current year, human society has progressed past the point where it needs to have roguelike upgrades explained to it"
+- passive items like risk of rain or any other roguelike probably
+    - the boring shit
+- but fuck that, every character gets unique upgrades to their skills
+    - each skill essentially has its own skill tree you can progress through as you upgrade
+        - more bullets, 
+    - allows us to really tune the experience of each character
+        - this character kit doesn't really work with attack speed? Well they just don't get attack speed!
+        - this ability doesn't really make sense with backup mags? This character doesn't need those!
+- I'm sure we'll still have an assortment of items that apply to each character, like every primary sends out a shockwave, or utility stuns nearby
+    - important stuff like health and move speed or so but we can decide what that is
+### Theme
+help
+I have 0 opinion. what you guys got going is cool
+### Visuals
+#### Problem
+Genre generally stays to zoomed-out top-down isometric
+This sucks for leveraging the 3d talent we have and the details I want you to be able to go ham with
+#### Solutions?
+show off our cool models in other places
+- character select
+- cutscenes
+- zoom in on ultimate animations
+start each run zoomed in, gradually zoom out
+- at the beginning of the run you can look at the character and go “cool that’s my guy” and get to see the cool animations
+- as the run progresses, you’re going to be looking at your character less anyway, in favor of all the shit that’s going on around you
+### World
+help
+some options I've thought of on a scale
+1: Full random generation
+5: Rogue Legacy
+- the world has general beats (forest to the east, mountains to the north), but within those realms it's randomly generated
+10: Fully authored
+- fully authored levels you explore (I think vampire survivors does this)
+11: one big open world if you're crazy
+
+I would like to be somewhere around 3
+- a somewhat authored world where we place landmarks and such, but the paths in between are randomized/generated
+    - whether that be fully procedural environments, or authored rooms that are randomly put together
+
 # Pre dev
 ## what makes you play the video game?
 - NO autoplay? sounds like a fun challenge
@@ -27,7 +90,7 @@ But You Actually Play the Video Game
 somewhat like rogue legacy, upgrading your stats is upgrading your base
 each mission you are sending clones of whatever character you choose down to the battlefield
 helldiver pods?
-## wars its inspirations on its sleeve
+## wears its inspirations on its sleeve
 vamp is very very clearly castlevania
 halls of torment is very very clearly diablo
 what do I do? very very clearly risk of rain?
@@ -137,6 +200,7 @@ what do I do? very very clearly risk of rain?
 - am I converging on everyone gets two utilities?
 ### let's try 3 abilities
 - commando
+	- FDSFDSF
 	- m1 shoot -> shoot pierce -> ulti rapid fires and spreads
 	- m2 grenade? -> ulti clusters
 	- space dodge -> does this progress as well?
@@ -191,6 +255,7 @@ what do I do? very very clearly risk of rain?
 	- m1 nothing on ground, laser in air (vulture bombing run fuck yea)
 	- m2 nothing on ground bomb in air
 	- space jump and fly. probably simply limit this lol
+	- ~wait why nothing on ground bruh did I learn nothing from my own design
 - stance switcher
 	- melee form 
 		- m1 pummel
@@ -219,6 +284,43 @@ what do I do? very very clearly risk of rain?
 	- actively pulls enemies to him, gathering them up
 	- tilt to lives them
 	- leaves aoe zones behind to drag them into
+- nem tesla
+	- normal:
+		- m1 lightning in a line
+		- m2 hammer fire pillars, applies overheat
+			- nice and juicy for overheat m1
+		- shift dash
+	- overheat:
+		- m1 heat aoe, overheat and explode mechanic
+		- m2 hammer slam in front of you, aoe pulls enemies together
+			- nice and juicy for normal m1
+		- shift dash
+	- well X on the "lightning form is better single target" lol
+		- but I don't wanna just boring short range long range
+		- lightning is straight line/cone, heat is aoe
+		- would it make sense heat is straight line, lightning is chain so aoe
+			- nah, lightning is a straight line forward, and that chains once or twice (or with upgrades 3 times or 4 times or)
+	- do we still want the dance between m1 and m2 to stay in x form
+		- hard with 2 buttons to 
+		- well
+		- do we have cooldowns
+	- unsure if m2 is hammer or the special
+		- wait how do I cut the heat being a big fuckin.....
+		- special is m1
+	- thinking it could be less controllable than our ror2 counterpart 
+		- m1 builds up at a steady rate, but m2 only spends it a little bit, not enough to stay indefinitely. the goal is essentially how many m2's can you get in while using m1, and the more you did the more reward you're going to get out of the alternate form
+	- gonna be real interesting to upgrade attack speed on this guy. you'll have to balance between them and that sounds very interesting
+
+- do I just dump all my fuckin mod ideas that I never got to do and satisfy myself here where they can be made real with lower scope?
+	- [[_The Ror]]
+		- omfg katamari
+		- my roguel!!
+		- ooh gnorps
+		- MCV yo we're actually top down now
+		- quantum translocator whatever that means actually leaving behind shadows sounds fun as fuck in 2d hmm
+			- m1 throw shadow
+			- m2 move a lot and damage a lot
+			- shift teleport to shadow
 ### hmm
 - seemed to be a bit more successful with that one but like damn I have a whole other button idk what to do with now and I'm kinda upset I wasn't able to use it to its fullest yknow
 - alright then, guess we got equipments
@@ -229,3 +331,10 @@ what do I do? very very clearly risk of rain?
 	- maybe ulti is just passive
 	- do we have cooldowns?
 - the benefit I've gotten out of this is to ditch the common m1 m2 philosophy of m2 being m1 souped up
+### Do we have cooldowns
+- just hold both buttons have a fuckin ball
+- "cooldowns" are essentially attack speed
+- yeah it wouldn't really be VS if you're managing cooldowns
+- I kinda want dash to have no cooldown
+	- dash has a wind down that can only be interrupted by dash
+	- essentially your other skills go on cooldown, so if you spam dash you're not attacking
