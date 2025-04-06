@@ -8,7 +8,7 @@ overall same
 - M3 totally not loader scrap barrier
 - M4 build tower
     - M2 now blasts from the tower
-### Rorr starstorm-style variant: Electrician
+### Rorr Starstorm-style variant: Electrician
 - M1 same, prioritizes conductors
 - M2 throw a ~~pylon~~ conductor forward. When this conductor is hit by any electricity, it spreads this electricity to all nearby enemies and conductors. 2 charges.
 - M3 zap to any of your structures, damaging those that you cross. Stays in the structure for a sec and can be repeated. Has x charges that all replenish at once

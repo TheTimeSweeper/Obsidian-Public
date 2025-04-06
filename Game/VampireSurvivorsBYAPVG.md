@@ -36,6 +36,7 @@ Everything below is up for discussion of course
 - I'm sure we'll still have an assortment of items that apply to all characters
     - I would like these to not be autoplay, like every primary sends out a shockwave, or utility stuns nearby, or all damage burns
     - important stuff like health and move speed or so but we can decide what that is
+    - 
 ### Visuals
 top down isometric
 - we can try something else but for some reason this is just what people want
@@ -75,6 +76,17 @@ ___
 ## what makes you play the video game?
 - NO autoplay? sounds like a fun challenge
 - WoL style augmenting your abilities rather than VS style passive shit constantly happening without buttons being pressed
+
+wtf's the point
+- if no auto aim then there should be a reason not to always just attack the closest thing
+    - priority targets ezpz
+        - not necessarily bosses or threatening things. maybe as simple as these enemies drop more gems
+- if no auto attack then there should be a reason not to just hold m1 the entire time
+    - guess it can depend on the character. simple shooty or swordy guy can be hold m1 the whole time but the spellcaster and koal can be alternating m1 and m2 a lot more
+- still, auto aim option for the people that want it
+    - by the design of the game, to some degree you're gonna want to do stuff and have a harder* time if you blindly do things, but if you don't mind that and just want to autoplay there's the option
+        - * harder should mean just takes longer to get to the good part, not that you fail more often
+        - this option would not be the focus of the game design though. I'm not gonna limit or make concessions to characters based on their autoplay experience or anything like that
 ## world
 - on a scale of 5: true random, 3: rogue legacy, 1: full authored, we're at 2
 - general beats of the world are authored, but the parts in between are randomly generated
@@ -101,6 +113,8 @@ helldiver pods?
 vamp is very very clearly castlevania
 halls of torment is very very clearly diablo
 what do I do? very very clearly risk of rain?
+## Items
+low health higher damage that one's good
 ## characters 
 - [[_New Game is a silly anime#char]]
 - ideas
@@ -317,6 +331,8 @@ what do I do? very very clearly risk of rain?
 	- thinking it could be less controllable than our ror2 counterpart 
 		- m1 builds up at a steady rate, but m2 only spends it a little bit, not enough to stay indefinitely. the goal is essentially how many m2's can you get in while using m1, and the more you did the more reward you're going to get out of the alternate form
 	- gonna be real interesting to upgrade attack speed on this guy. you'll have to balance between them and that sounds very interesting
+- shotgunner
+    - closer deals more damage cause bullets
 
 - do I just dump all my fuckin mod ideas that I never got to do and satisfy myself here where they can be made real with lower scope?
 	- [[_The Ror]]
