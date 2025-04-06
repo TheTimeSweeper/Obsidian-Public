@@ -96,12 +96,12 @@ wtf's the point
 		- maybe secretly be like this world is part of that world all along, just has nothing to do with --that guy's-- quest
 			- --who's that guy? Sharmout? Abboos? Sweeper? not a cringy self-insert?
 			- wait yeah that's kind what all the games have been. just environments and landmarks that exist in the world that That Guy might travel to on his quest, but the story can be entirely different.
-## Cartoon1st
-- 2D guys in a 3D world? So I can leverage my 3D friends as well?
-- maybe 3D player characters as that's where my amazing talent will come in handy and 2D enemies, so cartoon1st gets to draw many creatures and doesn't have to animate as much
-	- ("my talent" as in my friends that I call talent. not any talent that I have)
-- could be forcing this too much and it's not meant to be
-- could simply have cartoon1st draw the concepts and have good ass 3D models made of them
+## ~~Cartoon1st~~
+- ~~2D guys in a 3D world? So I can leverage my 3D friends as well?~~
+- ~~maybe 3D player characters as that's where my amazing talent will come in handy and 2D enemies, so cartoon1st gets to draw many creatures and doesn't have to animate as much~~
+	- ~~("my talent" as in my friends that I call talent. not any talent that I have)~~
+- ~~could be forcing this too much and it's not meant to be~~
+- ~~could simply have cartoon1st draw the concepts and have good ass 3D models made of them~~
 ## able to rotate the camera?
 - something to make us stand out from the fuckin plethora of top-down things, without fully needing to go 3rd person
 - can have shooty man 
@@ -207,8 +207,9 @@ low health higher damage that one's good
 	- shift goo into your irradiated area this became desolator
 	- space uh
 - Tesla Trooper
-	- m1 lightning
+	- m1 lightning, ulti tower
 	- m2 blast, ulti tower
+		- at mouse position, interesting
 	- shift lightning dash
 	- space util
 - Genji
@@ -219,7 +220,7 @@ low health higher damage that one's good
 - I now want an ulti button
 - wait nvm I wanted all to be ulti
 - am I converging on everyone gets two utilities?
-### let's try 3 abilities
+## let's try 3 abilities
 - commando
 	- FDSFDSF
 	- m1 shoot -> shoot pierce -> ulti rapid fires and spreads
@@ -354,10 +355,18 @@ low health higher damage that one's good
 	- maybe ulti is just passive
 	- do we have cooldowns?
 - the benefit I've gotten out of this is to ditch the common m1 m2 philosophy of m2 being m1 souped up
-### Do we have cooldowns
+## Do we have cooldowns
 - just hold both buttons have a fuckin ball
 - "cooldowns" are essentially attack speed
 - yeah it wouldn't really be VS if you're managing cooldowns
+	- but I don't want it to really be VS do I
 - I kinda want dash to have no cooldown
 	- dash has a wind down that can only be interrupted by dash
 	- essentially your other skills go on cooldown, so if you spam dash you're not attacking
+	- most dashes, at least
+- think the answer is it varies per character
+	- koal comboer will definitely not have cooldowns
+	- spellcaster will have cooldowns intrinsic to each of his fuckin ability combinations lol
+	- how about "most"? generally cooldowns and those guys are the exception?
+		- the BYAPVG here could be you choose which one to do
+			- again can vary per character. some can simply hold both, some may not be able to and prefer one over the other in different situations
