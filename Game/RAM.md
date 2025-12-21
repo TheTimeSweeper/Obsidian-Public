@@ -72,25 +72,25 @@ mix m1 and m2 to do fighting game combos
     - if you die while holding charge, you explode the amount charged
 ### Chrono Legionnaire
 freeze an enemy in time. use chronosphere to isolate an enemy
-    - m1 tether to an enemy
-        - freezes them, unable to do anything or be damaged
-        - after a while, vanishes from existence
-    - m2 chronosphere
-        - highlight an area, then highlight another area
-        - enemies (not tethered, and not you) in the area are teleported to the second area
-        - welcome bugs, the food is on the floor and the door is open
-    - does not move normally:
-        - project image while inputting movement, leaving body behind
-        - stop inputting movement to teleport to image
-        - after teleporting, disable self for a period of time based on teleport distance
-    - movement: teleport
-    - trickshot: vanish
-    - deflect: uh
-    - thoughts
-        - gonna take a bit of a support role. use chronosphere to rearrange enemies for use by other bots, primary completely locks down a priority target
-    - upgrades:
-        - primary chains to +1 target
-        - chronosphere second area is smaller (pulling enemies together)
+- m1 tether to an enemy
+    - freezes them, unable to do anything or be damaged
+    - after a while, vanishes from existence
+- m2 chronosphere
+    - highlight an area, then highlight another area
+    - enemies (not tethered, and not you) in the area are teleported to the second area
+    - welcome bugs, the food is on the floor and the door is open
+- does not move normally:
+    - project image while inputting movement, leaving body behind
+    - stop inputting movement to teleport to image
+    - after teleporting, disable self for a period of time based on teleport distance
+- movement: teleport
+- trickshot: vanish
+- deflect: uh
+- thoughts
+    - gonna take a bit of a support role. use chronosphere to rearrange enemies for use by other bots, primary completely locks down a priority target
+- upgrades:
+    - primary chains to +1 target
+    - chronosphere second area is smaller (pulling enemies together)
 ### Gatherer
 - idk I just want someone to pull enemies together
 - black hole? that explodes?
