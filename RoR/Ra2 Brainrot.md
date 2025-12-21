@@ -32,7 +32,7 @@ overall same
 #### Default set:
 - Generally single-target damage
 - M1: [Stress 10/s] Channel lightning
-	- continuously build heat and shoot lightning forward
+	- continuously build heat and aim lightning forward
 		- the longer it's held, the further it goes
 	- let go to build a chunk of heat and shoot a lightning bolt at the tip
 	- *generally higher DPS when spammed more often, building more heat.* 
@@ -43,7 +43,7 @@ overall same
 		- that or just have a heat requirement, yeah that's probably simpler
 	- *a good, more single-targed version of a heated move*
 	- *I like the flipped one being on secondary, you can really balance primary and secondary if you want to stay in either form, nicely done*
-- M3: [Stress 10, 10/hit] Tesla util
+- M3: [Stress 10, 10/hurt] Tesla util
 	- shield yourself in a layer of electricity. hits are absorbed and generate heat
 	- *Unsure about this one because shielding damage is better for short-range design. will still give it a try first to see. Maybe it'll see use by letting you go into crowds, generate heat, overheat then use aoe moves on them*
 	- *should it last after you're already overheated?*
@@ -113,8 +113,8 @@ Thoughts
     - _holding_ the special charges up a _bigger_ blast radius that un-pauses the enemies, and "triggers" the debuffs (timebomb forcefully explodes when un-paused, and the execution tresshold becomes active again alowing enemies to be executed)
 
 I’m not 100% sold on everything but the general idea of being a setup and payoff character by building up the debuffs and bombs then setting them off is really really cool
-
 - Bit iffy on the special having two different functions. I feel like that could be pulled off in other parts of the kit
+hello from the future having the same idea of moving special to primary
 
 ### Alts:
 help
@@ -196,7 +196,7 @@ So they both do
 - M4 control multiple enemies.
 	- Can do at full health, limited time
 	- Chirr but epic
-- M2 psi blast at self and all enemies,
+- M2 psi blast at self and all controlled enemies,
 	- hurts enemies and controlled allies. This is how you fight enemies. You damage them while they’re under your control before you lose them
 - M3 swap places with a controlled enemy
 - No m1? M1 is mind control?

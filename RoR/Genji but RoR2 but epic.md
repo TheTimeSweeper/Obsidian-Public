@@ -9,7 +9,7 @@ New development: imp arm is still fuckin alive, reluctantly helping the guy go k
 
 ## Model
 
-### ![](_img/Genji.png)
+### ![|725x812](_img/Genji.png)
 
 - Stlll needs a weapon
 - Possible Color reference
