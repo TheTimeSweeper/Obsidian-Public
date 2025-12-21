@@ -6,20 +6,20 @@
 - deflecting
 ### Whip Guy
 latch on to things and spin around to damage with the line
-    - m1 energy whip
-        - wind up animation
-        - if holding input at whip crack time, latch
-            - release to let go
-        - anyone that makes contact with the whip is hurt
-    - m2 dash
-        - hurts people based on your speed
-        - use to initiate orbiting when your whip is latched
-    - movement: dash
-    - trickshot: just keep spinning
-    - deflecting: 
-        - whip? 
-        - during windup (and then you hit the thing you deflected with the whip)
-    - idk where to fit, probably an upgrade: pull enemy opposite your direction, so you can just spin around together and fly in a direction like a bolas
+- m1 energy whip
+    - wind up animation
+    - if holding input at whip crack time, latch
+    - release to let go
+    - anyone that makes contact with the whip is hurt
+- m2 dash
+    - hurts people based on your speed
+    - use to initiate orbiting when your whip is latched
+- movement: dash
+- trickshot: just keep spinning
+- deflecting: 
+    - whip? 
+    - during windup (and then you hit the thing you deflected with the whip)
+- idk where to fit, probably an upgrade: pull enemy opposite your direction, so you can just spin around together and fly in a direction like a bolas
 ### Electrician
 throw conductors and chain zap between them and enemies
 - m1 zap
