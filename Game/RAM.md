@@ -76,8 +76,8 @@ freeze an enemy in time. use chronosphere to isolate an enemy
     - freezes them, unable to do anything or be damaged
     - after a while, vanishes from existence
 - m2 chronosphere
-    - highlight an area, then highlight another area
-    - enemies (not tethered, and not you) in the area are teleported to the second area
+    - highlight an area, then highlight second area
+    - enemies (not tethered, and not you) in the first area are teleported to the second area
     - welcome bugs, the food is on the floor and the door is open
 - does not move normally:
     - project image while inputting movement, leaving body behind
@@ -85,7 +85,7 @@ freeze an enemy in time. use chronosphere to isolate an enemy
     - after teleporting, disable self for a period of time based on teleport distance
 - movement: teleport
 - trickshot: vanish
-- deflect: uh
+- deflect: freeze projectiles in chronosphere initial highlight. on cast, projectiles are teleported, and converge under your control (or continue on their merry way)
 - thoughts
     - gonna take a bit of a support role. use chronosphere to rearrange enemies for use by other bots, primary completely locks down a priority target
 - upgrades:
@@ -94,7 +94,7 @@ freeze an enemy in time. use chronosphere to isolate an enemy
 ### Gatherer
 - idk I just want someone to pull enemies together
 - black hole? that explodes?
-- wind magic
+- wind magic?
 ### Stance Swapper
 switch axe but robot
 both stances react to being hit differently
