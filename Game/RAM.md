@@ -4,6 +4,8 @@
 - movement
 - trickshot setup
 - deflecting
+- knockback?
+- interaction with collider shield?
 ### Whip Guy
 latch on to things and spin around to damage with the line
 - m1 energy whip
@@ -19,6 +21,9 @@ latch on to things and spin around to damage with the line
 - deflecting: 
     - whip? 
     - during windup (and then you hit the thing you deflected with the whip)
+- knockback:
+    - windup is a shove into sweet spot range?
+    - sweet spot hits back if you're not holding for a latch?
 - idk where to fit, probably an upgrade: pull enemy opposite your direction, so you can just spin around together and fly in a direction like a bolas
 ### Electrician
 throw conductors and chain zap between them and enemies
@@ -37,8 +42,19 @@ throw conductors and chain zap between them and enemies
 - deflecting:
     - conductors block projectiles?
         - they're charged by enemy shots? 
-- misc
-    - electrical plug the robot
+- knockback: uh
+    - when conductors explode?
+whellp
+- implemented and sucks
+- landed on (good enough for now)
+    - m1 zap, chains to 1
+    - m2 conductor
+        - has an area around. when enemies in the area are hit by m1, the conductor also zaps them
+- thoughts
+    - m2 destructible
+        - plays animation on death, this is the time to zap it as Gwonam suggested
+        - makes some counterplay on the enemy version
+        - possibly fulfils deflecting
 ### Koal comboer
 mix m1 and m2 to do fighting game combos
 - 1, 11, 111 finisher
@@ -52,6 +68,7 @@ mix m1 and m2 to do fighting game combos
 - movement: 2
 - trickshot: finishers
 - deflect: 2, 22, 111
+- knockback: 222, 111
 ### Desolator
 - m1 shoot
     - does this game have debuffs?
@@ -68,6 +85,7 @@ mix m1 and m2 to do fighting game combos
     - stacks with each overlapped application of the zone
 - trickshot: big lingering aoe
 - deflect: uh
+- knockback: uh
 - upgrades:
     - if you die while holding charge, you explode the amount charged
 ### Chrono Legionnaire
@@ -86,6 +104,7 @@ freeze an enemy in time. use chronosphere to isolate an enemy
 - movement: teleport
 - trickshot: vanish
 - deflect: freeze projectiles in chronosphere initial highlight. on cast, projectiles are teleported, and converge under your control (or continue on their merry way)
+- knockback: how bout total relocation lol
 - thoughts
     - gonna take a bit of a support role. use chronosphere to rearrange enemies for use by other bots, primary completely locks down a priority target
 - upgrades:
@@ -98,4 +117,75 @@ freeze an enemy in time. use chronosphere to isolate an enemy
 ### Stance Swapper
 switch axe but robot
 both stances react to being hit differently
+starts in a random stance
 ### Katamari LOL
+# Code notes for enemy api or whatevs
+- might need const to static var
+    - `GameManager.enemy_scenes`
+        - bare minimum for testing
+    - `HordeEncounter.ENEMY_TIERS, ENEMIES`
+    - `Enemy.`
+        - `ENEMY_NAME`
+            - has fallback, nice
+        - `PlayableEnemyType`
+        - `enemy_icon_paths`
+    - `EliteEnemyUtil` whoof
+    - `Fitness.enemy_score_values`
+    - `UpgradeManager.enemy_menu_display_order`
+    - `UpgradeManager.LV1_ENEMY_TYPES, LV2_ENEMY_TYPES, LV3_ENEMY_TYPES`
+        - then update `VALID_ENEMY_TYPES` and `LEVEL_UPGRADE_POOLS`
+    - `ShopUpgradePanel.abbreviated_bot_names`
+- might need hook
+    - `GameManager.get_player_skin_paths_for_enemy_type`
+        - bare minimum for testing
+    - `Options.enemy_kills enemy_deaths enemy_swaps` I suppose
+        - not consts, these can probably be added to
+    - `Progression.bot_tutorial_completed` for the maniacs that actually build tutorials for their bots
+    - `World.spawn_zones`
+        - need to look into it, but for mod compat we can say hey make your enemydefinition choose one of these zones
+        - `World.import_zones` ? looks like editor script
+    - `DiscreeteEncounter.sprinkle_in_lvl2_bots`, `sprinkle_in_lvl3_bots`, `sprinkle_in_later_bots`
+        - have in our enemydefinition define what level it is, and hook into here
+    - Where is `EnemyDispenser` used?
+    - `EnemyConveyor.add_enemy`
+    - `GolemSpider.load_skin`
+        - I never noticed spiderbot has unique colors for each bot
+        - have a failsafe
+    - `GolemBoss.generate_and_apply_upgrades`
+        - add to `GolemBoss.valid_upgrades`, which isn't const thankfully
+    - `GolemBoss.attempt_trickshot`
+        - massive props to the maniacs who even do this
+        - actually probably doesn't need to be in the api
+    - `GolemBoss.apply_host_buffs`
+        - that's fucked bro
+        - also probably doesn't need to be in the api, but might be nice
+    - `SpawnZone.enemy_type set():`
+        - please tell me we can hook these properties
+    - `DiagnosticsMenu.data` where it's read
+    - `DiagnosticsMenu._process`
+        - oh god they needed to hard code all the gamepad directions for each tab I'm so sorry
+    - `DiagnosticsMenu.set_selected_bot
+    - `DiagnosticsMenu._on_[BOT]_pressed`
+        - I respect more than anyone the "just get it done" hustle
+    - `PaintShopMenu`
+        - yadda yadda yadda
+    - `UpgradeInfoMenu.set_enemy_icon`
+    - `Fitness.calculate_kill_score`
+        - for progression tracking, which...
+    - `SwapManager.update_swap_stats`
+    - `DeathFadeOverlay.vboxes, set_up_character_icons`
+        - looks like the death showing your items situation
+    - `DebugConsole.entities` except not really
+    - `ItemPanel.set_icon`
+    - `ItemPopup.setup_upgrade_panel`
+    - `TierdUpgradePanel.set_icons`
+    - `UpgradePanel.set_icons` 
+    - `CharacterInfoBar.swapped_host`
+        - heere's the UI
+    - `TabMenu.vboxes, set_up_character_icons, show_post_boss_1_tabs, show_post_boss_2_tabs
+        - oh fuck this is not dynamic haha
+        - seeing some `set_up_collider_icon` which seems to be an editor tool
+    - `RouletteShopSelectionPanel`
+        - uh
+        - probably not really hooks, but we'll have to setup functions to our UI
+    - `ShopUpgradePanel.set_upgrade`
