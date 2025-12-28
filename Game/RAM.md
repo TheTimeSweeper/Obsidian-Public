@@ -44,7 +44,7 @@ throw conductors and chain zap between them and enemies
         - they're charged by enemy shots? 
 - knockback: uh
     - when conductors explode?
-whellp
+#### whelllp
 - implemented and sucks
 - landed on (good enough for now)
     - m1 zap, chains to 1
