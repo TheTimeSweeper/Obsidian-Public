@@ -1,11 +1,21 @@
 ## New Bots
 - m1
 - m2
-- movement
-- trickshot setup
-- deflecting
+- Ability to trickshot
+- Movement
+- Skill Ceiling
+- deflecting/some interaction with projectiles
 - knockback?
-- interaction with collider shield?
+- interaction with collider shield? (everyone but epitaph, deadlift, collider lol)
+- possibly some kind of trick shot that doesn't require swapping
+    - steeltoe: hammered
+    - router: backboard
+    - deadlift: live ammo
+    - aphid: pan-seared
+    - tachi: chain
+    - collider: bodied
+    - epitaph: rally
+    - thistle: pierced
 ### Whip Guy
 latch on to things and spin around to damage with the line
 - m1 energy whip
@@ -51,10 +61,29 @@ throw conductors and chain zap between them and enemies
     - m2 conductor
         - has an area around. when enemies in the area are hit by m1, the conductor also zaps them
 - thoughts
-    - m2 destructible
-        - plays animation on death, this is the time to zap it as Gwonam suggested
-        - makes some counterplay on the enemy version
-        - possibly fulfils deflecting
+    - should add subtle tether from bot to conductor so yo know whose is whose
+    - bring back m1 bouncing off conductor (or make it an upgrade), disallow returning to the same target (or make it an upgrade)
+    - ai changes
+        - bot aim lags behind
+            - stops moving aim once casting
+        - bot only decides to attack from shorter range
+            - but keep decide throw m2 range the same?
+            - bring back up with ai level?
+    - conductor grabbable by collider (no longer yours)
+    - m1-m2 at the same time to detonate conductor as gwonam suggested
+        - launches enemies (and you) (and projectiles?) that are near it
+    - projectiles that hit the conductor
+        - do damage?
+            - plays animation on death, this is a chance to detonate it or it fizzles harmlessly
+        - bounce back but only if you detonate it?
+        - bounce back charged if you detonate it right when it hits?
+        - stick to conductor and get charged? once detonated release ball of charged projectiles in the direction you're detonating
+            - probably upgrade
+    - still not high skill enough
+        - currently the m1 is multiple bolts over a time, with the highest damaging bolt being at the end
+            - as a player this rewards being able to keep your cursor on the enemy for the whole duration
+            - for trickshots this also rewards leading the final hit as you swap out
+        - suppose we can lean into this, and remove the shapecast, requiring pinpiont aim like thistle
 ### Koal comboer
 mix m1 and m2 to do fighting game combos
 - 1, 11, 111 finisher
@@ -132,7 +161,7 @@ starts in a random stance
 
 Allows manually calling `GameManager.spawn_enemy` (or rather `spawn_and_place_enemy`) and playing as them
 
-## P1-0: MVP (main runs)
+## P1-0: MVP add bot to runs
 Goals:
 - P1-0: spawn enemy in run
     - support enemy being level 1 2 or 3 and distribute them in run spawns accordingly
@@ -149,7 +178,7 @@ Goals:
 - extend/hook/etc
     - `DiscreeteEncounter.sprinkle_in_lvl2_bots`, `sprinkle_in_lvl3_bots`, `sprinkle_in_later_bots`: P1 | Ugly
     - `SpawnZone.enemy_type set():`it's the one. it's like THE one. | ugh
-        - P1: extend `Encounter.StartWave`, or `DiscreteEncounter.handle_exotic_enemy_spawns`, and essentially do our own sprinkle_in_lvl1_bots
+        - P1: extend `Encounter.activate`, or `DiscreteEncounter.start_wave`, or `DiscreteEncounter.handle_exotic_enemy_spawns`, and essentially do our own sprinkle_in_lvl1_bots
 ## P1-1: MVP but actually
 Goals:
 - P1-1: get upgrades for enemy
