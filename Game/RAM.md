@@ -1,21 +1,29 @@
 ## New Bots
 - m1
 - m2
-- Ability to trickshot
-- Movement
-- Skill Ceiling
-- deflecting/some interaction with projectiles
-- knockback?
-- interaction with collider shield? (everyone but epitaph, deadlift, collider lol)
-- possibly some kind of trick shot that doesn't require swapping
-    - steeltoe: hammered
-    - router: backboard
-    - deadlift: live ammo
-    - aphid: pan-seared
-    - tachi: chain
-    - collider: bodied
-    - epitaph: rally
-    - thistle: pierced
+- Aspects
+    - Movement: 
+        - all bots have some kind movement they can do
+    - Trickshot: 
+        - ability to land kills after swapping
+    - Skill Ceiling: 
+        - the longer you play the bot the better you can get the hang of some kind of mechanic they have
+    - deflecting
+        - /some interaction with projectiles
+        - everyone but aphid
+    - Collider Shield
+        - some interaction with the shield, especially if you are ranged
+        - everyone but epitaph, deadlift
+    - knockback?
+    - possibly some kind of trickshot that doesn't require swapping
+        - steeltoe: hammered
+        - router: rebound, backblast
+        - deadlift: live ammo, wall thing
+        - aphid: pan-seared
+        - tachi: chain
+        - collider: bodied
+        - epitaph: rally
+        - thistle: pierced
 ### Whip Guy
 latch on to things and spin around to damage with the line
 - m1 energy whip
@@ -68,9 +76,10 @@ throw conductors and chain zap between them and enemies
             - stops moving aim once casting
         - bot only decides to attack from shorter range
             - but keep decide throw m2 range the same?
-            - bring back up with ai level?
+                - bring back up with ai level?
     - conductor grabbable by collider (no longer yours)
-    - m1-m2 at the same time to detonate conductor as gwonam suggested
+        - I just copypasted the beam attack code but it should definitely either detonate like proposed m1+m2 or shoot a lightningbolt
+    - m1+m2 to detonate conductor as gwonam suggested
         - launches enemies (and you) (and projectiles?) that are near it
     - projectiles that hit the conductor
         - do damage?
@@ -84,20 +93,59 @@ throw conductors and chain zap between them and enemies
             - as a player this rewards being able to keep your cursor on the enemy for the whole duration
             - for trickshots this also rewards leading the final hit as you swap out
         - suppose we can lean into this, and remove the shapecast, requiring pinpiont aim like thistle
+        - m1+m2 conductor detonate boosts the last lightning bolt that bounces off of it, so you want to time it to the last bolt in the m1 cast?
+            - this is a trickshot?
+- aspects
+    - movement: explode conductor to launch yourself
+    - trickshot: cast time on m1
+    - skill ceiling: see above
+    - deflecting: explode conductor near projectile
+    - collider: grab conductors, but might need to deflect lightning bolts as well like lasers but like how do I show that
+    - knockback: explode conductor
+    - trickshot: uh idk however we solve skill ceiling
 ### Koal comboer
 mix m1 and m2 to do fighting game combos
 - 1, 11, 111 finisher
 - 2, 22, 222 finisher
-- 1, 11, 2, 22, can be mixed and matched indefinitely
-- longer the combo the bettter the finisher
+- 1, 11, 2, 22, can be mixed and matched indefinitely until a finisher is used
+- longer the combo the better the finisher
 - sword and shield bot? chivalry knight bot like that's the joke it's medieval knight even though we're in robot age
-    - 1 swipe\, 11 spin, 111 slam shield in the ground
-    - 2 shield bash dash smash, 22 shield throw, 222 big sword stab
+    - 1 swipe, 11 spin in aim direction possibly gathers toward aim, 111 slam shield in the ground
+    - 2 shield bash dash smash + parry, 22 shield throw pulls enemy, 222 big sword stab
     - 1 and 2 are better single target, 11 has area, 22 has range
 - movement: 2
 - trickshot: finishers
 - deflect: 2, 22, 111
 - knockback: 222, 111
+- queue moves on input, esm just goes through the queue
+- general idea is gather up enemies for the finisher
+#### Art
+design
+- Just give the old koalesk design? that's definitely what's in my mind lol
+- no ideas. classic white-plated chivalry-bot theme?
+Animation:
+- spawn
+    - dive from ceiling, land in pose
+    - maybe beam of holy light from above
+- idle
+    - see other idles. drop chest and a bit later drop shoulders and loop
+- move
+    - good old run
+- die
+    - see other dies. kinda just falls apart. nothing too explodey
+- attack 1
+    - sword swipe, near instant
+- attack 11
+    - sword spin, xf windup
+- attack 111.
+    - shield slam ground with heavy xf wind up
+- attack 2
+    - shield bash dash, near instant
+- attack 22
+    - shield throw, ends with shield disappearing from sprite, holding arm waiting for it
+    - shield catch
+- attack 222
+    - lunge stab with sword, heavy xf windup
 ### Desolator
 - m1 shoot
     - does this game have debuffs?
@@ -122,7 +170,7 @@ freeze an enemy in time. use chronosphere to isolate an enemy
 - m1 tether to an enemy
     - freezes them, unable to do anything or be damaged
     - after a while, vanishes from existence
-- m2 chronosphere
+- m2 chronospheref
     - highlight an area, then highlight second area
     - enemies (not tethered, and not you) in the first area are teleported to the second area
     - welcome bugs, the food is on the floor and the door is open
