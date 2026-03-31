@@ -1,4 +1,5 @@
 # The mod with Newtover and Marauder in it
+I think the google doc has been updated more than this
 
 TMWNaMIT
 

@@ -1,3 +1,8 @@
+watching wife play
+- kinda learned that she wants to keep the bot as long as possible. wonder where the switch is gonna be for you to just leave full health bots to die for that juice
+- I haven't gotten her through the trickshot turorial yet. I'm struggling to remember what pushed me to do that
+- she's learning to swap more before she dies though. I guess I Just need to let that cook. I should have recorded my first playthroughs
+- elites are a great way to encourage swaps. "I want that"
 ## New Bots
 - m1
 - m2
@@ -15,14 +20,14 @@
         - some interaction with the shield, especially if you are ranged
         - everyone but epitaph, deadlift
     - knockback?
-    - possibly some kind of trickshot that doesn't require swapping
+    - some kind of trickshot that doesn't require swapping
         - steeltoe: hammered
-        - router: rebound, backblast
-        - deadlift: live ammo, wall thing
+        - router: rebound, backfire, hot potato
+        - deadlift: live ammo, kabedon
         - aphid: pan-seared
-        - tachi: chain
+        - tachi: chain, exit wound
         - collider: bodied
-        - epitaph: rally
+        - epitaph: rally, pinball, rebound
         - thistle: pierced
 ### Whip Guy
 latch on to things and spin around to damage with the line
@@ -196,6 +201,15 @@ switch axe but robot
 both stances react to being hit differently
 starts in a random stance
 ### Katamari LOL
+- would be a better boss, probably
+### youraislopbores.me
+funny website where you ask an "ai" that's just some random dude responding. Asked for bot ideas
+- One with controllable wheel thingys with spikes like ninja stars pls understand what I'm talking about I forgot what they are called and they are connected by a chain
+    - funny enough just plugged that into google (so ai) to see what they were talking about lol. still no idea
+    - chakram?
+- A combination of both attacks to make one powerful one!
+- Guns and if you already had that idea well......... BIGGER GUNS
+- Well you clearly have already come up with the idea but maybe it can turn into clones
 # Code notes for enemy api or whatevs
 ## P0: Bare Minimum
 - consts
@@ -211,9 +225,9 @@ Allows manually calling `GameManager.spawn_enemy` (or rather `spawn_and_place_en
 
 ## P1-0: MVP add bot to runs
 Goals:
-- P1-0: spawn enemy in run
+- spawn enemy in run
     - support enemy being level 1 2 or 3 and distribute them in run spawns accordingly
-- P1-0: kill enemy
+- kill enemy
     - fitness score
 
 - consts
@@ -229,7 +243,7 @@ Goals:
         - P1: extend `Encounter.activate`, or `DiscreteEncounter.start_wave`, or `DiscreteEncounter.handle_exotic_enemy_spawns`, and essentially do our own sprinkle_in_lvl1_bots
 ## P1-1: MVP but actually
 Goals:
-- P1-1: get upgrades for enemy
+- get upgrades for enemy
     - in upgrade drops and shop items
         - sacrifice "random common upgrade" buttons in shop for now
 
@@ -253,104 +267,105 @@ P1 : MVP
 P2 : likely next after MVP
 P2+: past MVP
 ```
-- consts
-    - *`ClassName.const_field_name`*
-        - *`ClassName.function_we_need_to_fix_if_we_cant_change_const`: Priority | hook ugliness*
-            - *comment*
-    - `GameManager.enemy_scenes`
-        - `GameManager.spawn_enemy`: P0 | ugly
-            - well damn I could swear there was more
-            - in any case it's not a very clean hook. we have to copy paste it all
-    - `HordeEncounter.ENEMY_TIERS, ENEMIES`
-        - skipping
-    - `Enemy.ENEMY_NAME`
-        - `DialogueUtil.player_host_string`: P2+
-        - `Fitness.add_kill_to_score_feed`: P2 | ugly
-            - has failsafe, otherwise would be nice for MVP
-            - this failsafe hard checks the enum so hook is unavoidable
-    - `Enemy.PlayableEnemyType`
-        - `LevelManager.generate_daily_run`: P2+
-        - `DiagnosticsMenu.set_up_upgrade_grid`: P2+
-    - `Enemy.enemy_icon_paths`
-        - literally none of the uses of this are required? P2+
-    - `EliteEnemyUtil`
-        - whoof put a pin in it for now
-    - `Fitness.enemy_score_values`
-        - `Boss.calculate_score_value`: P2+
-            - not needed for custom enemy MVP but needed for any custom bosses
-        - `Enemy.calculate_score_value`: P1 | ugly
-    - ~~`UpgradeManager.enemy_menu_display_order`~~
-        - ~~`UpgradeManager.upgrade_type_sort` don't even have to hook~~
-    - `UpgradeManager.LV1_ENEMY_TYPES, LV2_ENEMY_TYPES, LV3_ENEMY_TYPES` then update `VALID_ENEMY_TYPES` and `LEVEL_UPGRADE_POOLS`
-        - `LV1_ENEMY_TYPES, LV2_ENEMY_TYPES, LV3_ENEMY_TYPES`
-            - `UpgradeManager.get_host_pool_for_given_level`: P1 | easy
-                - not bad hook. returns a duplicate that we can append to
-            - `UpgradeManager.get_random_upgrade_for_given_level`: P1 | ugly
-                - less not bad but not the worst. probably have to copypaste again
-            - `RouletteShopSelectionPanel.init` P2 | ugly
-        - `VALID_ENEMY_TYPES`
-            - `UpgradeManager.get_random_upgrade` P2 | super ugly
-            - `GolemBoss.spawn_ad`: P2+ | ugly
-        - `LV1_ENEMY_TYPES`
-            - `MountainBossAI.spawn_pillar_ring_for_player_to_bonk_against` P2+
-        - `LEVEL_UPGRADE_POOLS`: unused?
-    - `ShopUpgradePanel.abbreviated_bot_names`: unused
-- extend/hook/etc
-    - `GameManager.get_player_skin_paths_for_enemy_type` : P2+
-        - can be skipped if your bot has ignore_skin true 
-    - `Upgrades` collections are all static vars yaay
-        - `upgrades`: P1
-        - `hyperupgrades, antiupgrades, GOLEM_upgrades, story_upgrades`: P2+ or n/a
-    - `Options.enemy_kills enemy_deaths enemy_swaps`: unused?
-        - not consts, these can probably be added to
-    - `Progression.bot_tutorial_completed` for the maniacs that actually build tutorials for their bots
-    - `World.spawn_zones`: Unsure
-        - need to look into it, but for mod compat we can say hey make your enemydefinition choose one of these zones
-        - `World.import_zones` ? looks like editor script
-    - `DiscreeteEncounter.sprinkle_in_lvl2_bots`, `sprinkle_in_lvl3_bots`, `sprinkle_in_later_bots`: P1 | Ugly
-    - Where is `EnemyDispenser` used?
-    - `EnemyConveyor.add_enemy` : P2+
-    - `GolemSpider.load_skin`: P2+
-        - I never noticed spiderbot has unique colors for each bot
-        - doesn't break, we just don't get a skin
-    - `GolemBoss.generate_and_apply_upgrades`: P2
-        - add to `GolemBoss.valid_upgrades`, which isn't const thankfully
-    - `GolemBoss.attempt_trickshot`: P2+
-        - massive props to the maniacs who even do this
-        - actually probably doesn't need to be in the api
-    - `GolemBoss.apply_host_buffs`: P2
-        - that's so mean bro I love it
-        - also probably doesn't need to be in the api, but might be nice
-    - `SpawnZone.enemy_type set():`it's the one. it's like THE one. 
-        - please tell me we can hook these properties
-        - we cannot
-        - we also run into a bit of a design dilemma, because enemy encounters are designer authored, not randomly placed. 
-        - P1: hook `Encounter.StartWave`, or `DiscreteEncounter.handle_exotic_enemy_spawns`
-    - `DiagnosticsMenu.data` where it's read
-    - `DiagnosticsMenu._process`
-        - oh god they needed to hard code all the gamepad directions for each tab I'm so sorry
-    - `DiagnosticsMenu.set_selected_bot
-    - `DiagnosticsMenu._on_[BOT]_pressed`
-        - I respect more than anyone the "just get it done" hustle
-    - `PaintShopMenu`
-        - yadda yadda yadda
-    - `UpgradeInfoMenu.set_enemy_icon`
-    - `Fitness.calculate_kill_score`
-        - for progression tracking, which...
-    - `SwapManager.update_swap_stats`
-    - `DeathFadeOverlay.vboxes, set_up_character_icons`
-        - looks like the death showing your items situation
-    - `DebugConsole.entities` except not really
-    - `ItemPanel.set_icon`
-    - `ItemPopup.setup_upgrade_panel`
-    - `TierdUpgradePanel.set_icons`
-    - `UpgradePanel.set_icons` 
-    - `CharacterInfoBar.swapped_host`
-        - heere's the UI
-    - `TabMenu.vboxes, set_up_character_icons, show_post_boss_1_tabs, show_post_boss_2_tabs
-        - oh no this is not dynamic haha
-        - seeing some `set_up_collider_icon` which seems to be an editor tool
-    - `RouletteShopSelectionPanel`
-        - uh
-        - probably not really hooks, but we'll have to setup functions to our UI
-    - `ShopUpgradePanel.set_upgrade`
+### consts
+- *`ClassName.const_field_name`*
+    - *`ClassName.function_we_need_to_fix_if_we_cant_change_const`: Priority | hook ugliness*
+        - *comment*
+- `GameManager.enemy_scenes`
+    - `GameManager.spawn_enemy`: P0 | ugly
+        - well damn I could swear there was more
+        - in any case it's not a very clean hook. we have to copy paste it all
+- `HordeEncounter.ENEMY_TIERS, ENEMIES`
+    - skipping
+- `Enemy.ENEMY_NAME`
+    - `DialogueUtil.player_host_string`: P2+
+    - `Fitness.add_kill_to_score_feed`: P2 | ugly
+        - has failsafe, otherwise would be nice for MVP
+        - this failsafe hard checks the enum so hook is unavoidable
+- `Enemy.PlayableEnemyType`
+    - `LevelManager.generate_daily_run`: P2+
+    - `DiagnosticsMenu.set_up_upgrade_grid`: P2+
+- `Enemy.enemy_icon_paths`
+    - ~~literally none of the uses of this are required? P2+~~
+    - nvm, P1. fatally fails in SpawnZone.set_sprite (from DiscreteEncounter.set_spawn_zone_enemy), which I'm pretty sure is only for editor functionality :c
+- `EliteEnemyUtil`
+    - whoof put a pin in it for now
+- `Fitness.enemy_score_values`
+    - `Boss.calculate_score_value`: P2+
+        - not needed for custom enemy MVP but needed for any custom bosses
+    - `Enemy.calculate_score_value`: P1 | ugly
+- ~~`UpgradeManager.enemy_menu_display_order`~~
+    - ~~`UpgradeManager.upgrade_type_sort` don't even have to hook~~
+- `UpgradeManager.LV1_ENEMY_TYPES, LV2_ENEMY_TYPES, LV3_ENEMY_TYPES` then update `VALID_ENEMY_TYPES` and `LEVEL_UPGRADE_POOLS`
+    - `LV1_ENEMY_TYPES, LV2_ENEMY_TYPES, LV3_ENEMY_TYPES`
+        - `UpgradeManager.get_host_pool_for_given_level`: P1 | easy
+            - not bad hook. returns a duplicate that we can append to
+        - `UpgradeManager.get_random_upgrade_for_given_level`: P1 | ugly
+            - less not bad but not the worst. probably have to copypaste again
+        - `RouletteShopSelectionPanel.init` P2 | ugly
+    - `VALID_ENEMY_TYPES`
+        - `UpgradeManager.get_random_upgrade` P2 | super ugly
+        - `GolemBoss.spawn_ad`: P2+ | ugly
+    - `LV1_ENEMY_TYPES`
+        - `MountainBossAI.spawn_pillar_ring_for_player_to_bonk_against` P2+
+    - `LEVEL_UPGRADE_POOLS`: unused?
+- `ShopUpgradePanel.abbreviated_bot_names`: unused
+### extend/hook/etc
+- `GameManager.get_player_skin_paths_for_enemy_type` : P2+
+    - can be skipped if your bot has ignore_skin true 
+- `Upgrades` collections are all static vars yaay
+    - `upgrades`: P1
+    - `hyperupgrades, antiupgrades, GOLEM_upgrades, story_upgrades`: P2+ or n/a
+- `Options.enemy_kills enemy_deaths enemy_swaps`: unused?
+    - not consts, these can probably be added to
+- `Progression.bot_tutorial_completed` for the maniacs that actually build tutorials for their bots
+- `World.spawn_zones`: Unsure
+    - need to look into it, but for mod compat we can say hey make your enemydefinition choose one of these zones
+    - `World.import_zones` ? looks like editor script
+- `DiscreeteEncounter.sprinkle_in_lvl2_bots`, `sprinkle_in_lvl3_bots`, `sprinkle_in_later_bots`: P1 | Ugly
+- Where is `EnemyDispenser` used?
+- `EnemyConveyor.add_enemy` : P2+
+- `GolemSpider.load_skin`: P2+
+    - I never noticed spiderbot has unique colors for each bot
+    - doesn't break, we just don't get a skin
+- `GolemBoss.generate_and_apply_upgrades`: P2
+    - add to `GolemBoss.valid_upgrades`, which isn't const thankfully
+- `GolemBoss.attempt_trickshot`: P2+
+    - massive props to the maniacs who even do this
+    - actually probably doesn't need to be in the api
+- `GolemBoss.apply_host_buffs`: P2
+    - that's so mean bro I love it
+    - also probably doesn't need to be in the api, but might be nice
+- `SpawnZone.enemy_type set():`it's the one. it's like THE one. 
+    - please tell me we can hook these properties
+    - we cannot
+    - we also run into a bit of a design dilemma, because enemy encounters are designer authored, not randomly placed. 
+    - P1: hook `Encounter.StartWave`, or `DiscreteEncounter.handle_exotic_enemy_spawns`
+- `DiagnosticsMenu.data` where it's read
+- `DiagnosticsMenu._process`
+    - oh god they needed to hard code all the gamepad directions for each tab I'm so sorry
+- `DiagnosticsMenu.set_selected_bot
+- `DiagnosticsMenu._on_[BOT]_pressed`
+    - I respect more than anyone the "just get it done" hustle
+- `PaintShopMenu`
+    - yadda yadda yadda
+- `UpgradeInfoMenu.set_enemy_icon`
+- `Fitness.calculate_kill_score`
+    - for progression tracking, which...
+- `SwapManager.update_swap_stats`
+- `DeathFadeOverlay.vboxes, set_up_character_icons`
+    - looks like the death showing your items situation
+- `DebugConsole.entities` except not really
+- `ItemPanel.set_icon`
+- `ItemPopup.setup_upgrade_panel`
+- `TierdUpgradePanel.set_icons`
+- `UpgradePanel.set_icons` 
+- `CharacterInfoBar.swapped_host`
+    - heere's the UI
+- `TabMenu.vboxes, set_up_character_icons, show_post_boss_1_tabs, show_post_boss_2_tabs
+    - oh no this is not dynamic haha
+    - seeing some `set_up_collider_icon` which seems to be an editor tool
+- `RouletteShopSelectionPanel`
+    - uh
+    - probably not really hooks, but we'll have to setup functions to our UI
+- `ShopUpgradePanel.set_upgrade`
