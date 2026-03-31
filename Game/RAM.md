@@ -268,6 +268,22 @@ P2 : likely next after MVP
 P2+: past MVP
 ```
 ### consts
+- `GameManager.enemy_scenes`
+- `HordeEncounter.ENEMY_TIERS, ENEMIES`
+- `Enemy.ENEMY_NAME`
+- `Enemy.PlayableEnemyType`
+- `Enemy.enemy_icon_paths`
+- `EliteEnemyUtil`
+    - `template_names`
+    - `enemy_type_templates`
+    - `template_skins`
+    - `template_skins_2`
+    - `template_score_mults`
+    - `template_upgrades`
+- `Fitness.enemy_score_values`
+- `UpgradeManager.LV1_ENEMY_TYPES, LV2_ENEMY_TYPES, LV3_ENEMY_TYPES`, `VALID_ENEMY_TYPES` and `LEVEL_UPGRADE_POOLS`
+- `ShopUpgradePanel.abbreviated_bot_names` unused?
+### consts, analyzed
 - *`ClassName.const_field_name`*
     - *`ClassName.function_we_need_to_fix_if_we_cant_change_const`: Priority | hook ugliness*
         - *comment*
@@ -290,6 +306,7 @@ P2+: past MVP
     - nvm, P1. fatally fails in SpawnZone.set_sprite (from DiscreteEncounter.set_spawn_zone_enemy), which I'm pretty sure is only for editor functionality :c
 - `EliteEnemyUtil`
     - whoof put a pin in it for now
+    - pretty sure consts would help, but the enum might be being used as a string?
 - `Fitness.enemy_score_values`
     - `Boss.calculate_score_value`: P2+
         - not needed for custom enemy MVP but needed for any custom bosses
