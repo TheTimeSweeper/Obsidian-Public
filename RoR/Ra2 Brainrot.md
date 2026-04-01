@@ -246,7 +246,7 @@ Prototype:
 
 Potential is truly infinite here. Could add an actual resource system for buying units, repairing self, buying structures and selling them to reposition. All ears for any ideas
 # Steel Ronin
-Or any of the other weeb units
+Or any of the other units
 - Maybe as bosses/golem-tier big enemies
 # Other Content
 - Purchasable terror drone

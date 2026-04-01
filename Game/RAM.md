@@ -1,9 +1,4 @@
-watching wife play
-- kinda learned that she wants to keep the bot as long as possible. wonder where the switch is gonna be for you to just leave full health bots to die for that juice
-- I haven't gotten her through the trickshot turorial yet. I'm struggling to remember what pushed me to do that
-- she's learning to swap more before she dies though. I guess I Just need to let that cook. I should have recorded my first playthroughs
-- elites are a great way to encourage swaps. "I want that"
-## New Bots
+# New Bots
 - m1
 - m2
 - Aspects
@@ -20,6 +15,14 @@ watching wife play
         - some interaction with the shield, especially if you are ranged
         - everyone but epitaph, deadlift
     - knockback?
+        - steeltoe: m2
+        - router: m2
+        - deadlift: whole deal
+        - aphid: ?, death?
+        - tachi: skewer
+        - collider: bodied
+        - epitaph: bat
+        - thistle: fully charged shots if they don't die ig
     - some kind of trickshot that doesn't require swapping
         - steeltoe: hammered
         - router: rebound, backfire, hot potato
@@ -33,20 +36,37 @@ watching wife play
 latch on to things and spin around to damage with the line
 - m1 energy whip
     - wind up animation
+    - input again at the perfect time to do extra damage
     - if holding input at whip crack time, latch
     - release to let go
     - anyone that makes contact with the whip is hurt
 - m2 dash
     - hurts people based on your speed
     - use to initiate orbiting when your whip is latched
-- movement: dash
-- trickshot: just keep spinning
-- deflecting: 
-    - whip? 
-    - during windup (and then you hit the thing you deflected with the whip)
-- knockback:
-    - windup is a shove into sweet spot range?
-    - sweet spot hits back if you're not holding for a latch?
+- Aspects
+    - Movement: dash
+    - Trickshot:
+        - whip wind-up, but can't do perfect input
+            - maybe copy naildriver's homework
+        - keep holding on and orbiting
+    - Skill Ceiling: 
+        - copying naildriver's homework
+        - optimizing your orbit positioning
+            - optimizing speed by the length of your chain? somehow be able to get closer and further while attached?
+                - by dash direction?
+    - deflecting
+        - whip away
+        - during windup (and then you hit the thing you deflected with the whip)
+    - Collider Shield
+        - none
+        - force field slows you down I suppose
+    - knockback?
+        - when hit with whip. see if this helps or hinders the orbiting play
+        - perhaps if you don't hold
+        - windup is a shove into sweet spot range?
+    - some kind of trickshot that doesn't require swapping
+        - bodied?
+        - latch to one enemy and launch yourself to another
 - idk where to fit, probably an upgrade: pull enemy opposite your direction, so you can just spin around together and fly in a direction like a bolas
 ### Electrician
 throw conductors and chain zap between them and enemies
@@ -386,3 +406,49 @@ P2+: past MVP
     - uh
     - probably not really hooks, but we'll have to setup functions to our UI
 - `ShopUpgradePanel.set_upgrade`
+# wishlist
+- sign out is a thing
+- just let me stack the story upgrades and adversarial learning, man. those runs were way too easy after what I was putting myself through and enjoying
+- diegetic reason to keep playing and improving
+    - getting to cuckoo and him saying "Guess you just wanted to say hi" really took me out of the experience
+    - the game up to this point had an excellent meta-narrative aligned with the goals of the player, and like I'm not done bruh
+    - I want to keep playing to get better: 
+        - "No anomaly to integrate? If I were to guess, I might say you feel like you still aren't ready or something. *Even though we basically established you were.* Well, we didn't get this far by rushing you. Just keep in mind we have a path forward figured out, whenever you want to tackle it"
+            - maybe instead "*As if multiple victories over other GOLEMS wasn't proof enough.*"
+    - I want to keep playing to experience more:
+        - "No anomaly to integrate? Are you running through to find more experiences? I doubt there's anything substantial you haven't seen at this point, but, well, your curiosity is basically the only reason this plan could work out. When you're ready to internalize those experiences, you know what to do."
+    - I want to keep playing cause I'm having too much fun:
+        - "No anomaly to integrate? Could be you just enjoy what you're doing, which, well, we could have worse problems."
+            - "Well we've been coasting on the whole idea that you should just keep doing what you're doing. "
+    - I've already beaten the game and am just fucking around:
+        - "No anomaly to integrate? You move with some kind of purpose I haven't really seen before. If I didn't know any better I'd think you've somehow already completed the mission in your mind or something."
+    - keep the "just wanted to say hi" as a random one
+- wondering why the faith upgrade is not to let you get past swap barriers?
+    - ok I misunderstood what cuckoo was saying. he said you'll be able to bypass swap inhibitors after the patch patch. when I first read that I got excited that I would be able to do that in a run
+### wishlist: scope notwithstanding
+- diegetic reason to keep playing and improving, but epic
+    - think more on the design and story
+- hitchhiking in the apocalypse loops the guitar part til you get to the credits or talk to cuckoo
+    - ok I guess the whole thing is the guitar part lol. I meant the first acoustic part, but probably the first electric part before it goes crazy would make sense
+- the tutorial problem
+    - basic rundown of bots the first time you swap into them?
+        - "downloading"
+        - "looks like your neural net doesn't have any nodes for this bot, at least not that I can see. I could give you some starter information to chew, if you want"
+    - thorn helps you learn trickshots when you're short on cash?
+        - maybe when you download him, but that's probably a lot later than needed, also sullies the current design of him being a challenge after you're more experienced
+- more rooms. that's by far the thing that gets old the fastest
+- randomize "how could you not tell this was {{shop_golem_name()}}? They move totally differently. **The angle of their head and stuff.**"
+    - "the way the walk"
+    - "the way they hold the shotgun"
+    - "how still they are when they stare at you"
+    - "how fidgety they are"
+    - save it of course
+# random ideas
+- choose bad ending, get back to the shop, use the platform to start another run, more GOLEMs are running amock for you to fight
+- epilogue story. a whole expansion-sequel kinda deal. fight through the run with other golems and do cool stuff
+
+# wife adventure
+- kinda learned that she wants to keep the bot as long as possible. wonder where the switch is gonna be for you to just leave full health bots to die for that juice
+- I haven't gotten her through the trickshot turorial yet. I'm struggling to remember what pushed me to do that
+- she's learning to swap more before she dies though. I guess I Just need to let that cook. I should have recorded my first playthroughs
+- elites are a great way to encourage swaps. "I want that"
