@@ -128,6 +128,11 @@ throw conductors and chain zap between them and enemies
     - collider: grab conductors, but might need to deflect lightning bolts as well like lasers but like how do I show that
     - knockback: explode conductor
     - trickshot: uh idk however we solve skill ceiling
+#### Lore
+- bots responsible for the infrastructure of high tech future. especially useful after the patch since everyone is electrical
+- idea floating in my head that they use their bodies cause they're robots. lean into how dangerous it is from the perspective of a human
+    - but like what's the point of that when they can just throw out conductors
+- EV bros? shun fossil fuels?
 ### Koal comboer
 mix m1 and m2 to do fighting game combos
 - 1, 11, 111 finisher
@@ -171,6 +176,15 @@ Animation:
     - shield catch
 - attack 222
     - lunge stab with sword, heavy xf windup
+#### Lore
+- pretty straighforward. they're chivalrous medieval knights, but robots
+    - in the patch, all the white knight honorable virgin larpers gravitated toward these designs and just schizoposted fantasy into them
+    - oh god they're fuckin fedoracore milady guys aren't they
+    - I guess the one thing missing is what were they before the patch? why did finchtech make dudes with swords and shields
+        - maybe they just had shields and people gravitated toward them looking like knights kinda
+            - if so, why
+        - rogue faction of steeltoes that equipped swords instead of shotguns?
+    - maybe lean into the sweaty fighting game direction. they're just all melee players
 ### Desolator
 - m1 shoot
     - does this game have debuffs?
@@ -408,24 +422,40 @@ P2+: past MVP
 - `ShopUpgradePanel.set_upgrade`
 # wishlist
 - sign out is a thing
+- reduce screenshake while swapping
 - just let me stack the story upgrades and adversarial learning, man. those runs were way too easy after what I was putting myself through and enjoying
+    - maybe just cut out evolution upgrades
+        - maybe only faith
+- wondering why the faith upgrade is not to let you get past swap barriers?
+    - ok I misunderstood what cuckoo was saying. he said you'll be able to bypass swap inhibitors after the patch patch. when I first read that I got excited that I would be able to do that in a run
+- outlines on items in the tab menu for rarity
+- temp display of the upgrades elite bots have in the tab menu when you're playing as them 
+- some conveyance that some trickshots refill your meter
+- enemies duplicated by that adversarial modifier give half points
 - diegetic reason to keep playing and improving
     - getting to cuckoo and him saying "Guess you just wanted to say hi" really took me out of the experience
-    - the game up to this point had an excellent meta-narrative aligned with the goals of the player, and like I'm not done bruh
+    - the game up to this point had an excellent meta-narrative aligned with the experience of the player, and like I'm not done bruh
     - I want to keep playing to get better: 
         - "No anomaly to integrate? If I were to guess, I might say you feel like you still aren't ready or something. *Even though we basically established you were.* Well, we didn't get this far by rushing you. Just keep in mind we have a path forward figured out, whenever you want to tackle it"
-            - maybe instead "*As if multiple victories over other GOLEMS wasn't proof enough.*"
+            - maybe instead "*As if multiple victories over other GOLEMs wasn't proof enough.*"
     - I want to keep playing to experience more:
         - "No anomaly to integrate? Are you running through to find more experiences? I doubt there's anything substantial you haven't seen at this point, but, well, your curiosity is basically the only reason this plan could work out. When you're ready to internalize those experiences, you know what to do."
+            - maybe something like "well the path up the mountain isn't gonna change very much".  
     - I want to keep playing cause I'm having too much fun:
         - "No anomaly to integrate? Could be you just enjoy what you're doing, which, well, we could have worse problems."
             - "Well we've been coasting on the whole idea that you should just keep doing what you're doing. "
     - I've already beaten the game and am just fucking around:
         - "No anomaly to integrate? You move with some kind of purpose I haven't really seen before. If I didn't know any better I'd think you've somehow already completed the mission in your mind or something."
+            - did you run some kind of hyperbolic time simulation on your own since the last time I saw you?
     - keep the "just wanted to say hi" as a random one
-- wondering why the faith upgrade is not to let you get past swap barriers?
-    - ok I misunderstood what cuckoo was saying. he said you'll be able to bypass swap inhibitors after the patch patch. when I first read that I got excited that I would be able to do that in a run
+- randomize "how could you not tell this was {{shop_golem_name()}}? They move totally differently. **The angle of their head and stuff.**"
+    - "the way the walk"
+    - "the way they hold the shotgun"
+    - "how still they are when they stare at you"
+    - "how fidgety they are"
+    - save it of course
 ### wishlist: scope notwithstanding
+- code all 1 upgrades to get past max if you use the shop 3 trick
 - diegetic reason to keep playing and improving, but epic
     - think more on the design and story
 - hitchhiking in the apocalypse loops the guitar part til you get to the credits or talk to cuckoo
@@ -437,12 +467,9 @@ P2+: past MVP
     - thorn helps you learn trickshots when you're short on cash?
         - maybe when you download him, but that's probably a lot later than needed, also sullies the current design of him being a challenge after you're more experienced
 - more rooms. that's by far the thing that gets old the fastest
-- randomize "how could you not tell this was {{shop_golem_name()}}? They move totally differently. **The angle of their head and stuff.**"
-    - "the way the walk"
-    - "the way they hold the shotgun"
-    - "how still they are when they stare at you"
-    - "how fidgety they are"
-    - save it of course
+- separate save files might be nice
+- an alternate ending if you get to the golem on that first excursion when you first play the game
+    - or alternate beginning I suppose
 # random ideas
 - choose bad ending, get back to the shop, use the platform to start another run, more GOLEMs are running amock for you to fight
 - epilogue story. a whole expansion-sequel kinda deal. fight through the run with other golems and do cool stuff
