@@ -132,7 +132,9 @@ throw conductors and chain zap between them and enemies
 - bots responsible for the infrastructure of high tech future. especially useful after the patch since everyone is electrical
 - idea floating in my head that they use their bodies cause they're robots. lean into how dangerous it is from the perspective of a human
     - but like what's the point of that when they can just throw out conductors
-- EV bros? shun fossil fuels?
+- ~~EV bros? shun fossil fuels?~~
+- official lore is that red alert 2 is still the best rts after 80 years, and people shitposted that and other rts games into them
+    - thanks gwonam that was brilliant
 ### Koal comboer
 mix m1 and m2 to do fighting game combos
 - 1, 11, 111 finisher
@@ -432,6 +434,10 @@ P2+: past MVP
 - temp display of the upgrades elite bots have in the tab menu when you're playing as them 
 - some conveyance that some trickshots refill your meter
 - enemies duplicated by that adversarial modifier give half points
+- "you were in rough shape when I found you"
+    - nah man I got past the shop, I was doing good even
+    - "you killed a few bots, and got destroyed within minutes"
+        - but what if I didn't tho
 - diegetic reason to keep playing and improving
     - getting to cuckoo and him saying "Guess you just wanted to say hi" really took me out of the experience
     - the game up to this point had an excellent meta-narrative aligned with the experience of the player, and like I'm not done bruh
