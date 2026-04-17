@@ -433,11 +433,21 @@ P2+: past MVP
 - outlines on items in the tab menu for rarity
 - temp display of the upgrades elite bots have in the tab menu when you're playing as them 
 - some conveyance that some trickshots refill your meter
-- enemies duplicated by that adversarial modifier give half points
+- enemies duplicated by that adversarial modifier give half points'
+- aphid flames are additive, so when multiple overlap you see them get brighter
+    - help convey that as it revs up you shoot more flames
 - "you were in rough shape when I found you"
     - nah man I got past the shop, I was doing good even
     - "you killed a few bots, and got destroyed within minutes"
         - but what if I didn't tho
+- memories really need to have little screenshots man
+    - I assume the resistance was on coding dynamic screen capture, but just do it externally in editor and store them instead
+- some way to choose to cut down on the yapping
+    - after the first golem defeat lower dump, he says at some point" I don't care or I know you don't care or whatever so here's the important info" 
+        - bitch that should've came at the beginning
+    - have some way to skip to important dialogue
+    - maybe some way to re ask about that dialogue you skipped or something
+### Yapper
 - diegetic reason to keep playing and improving
     - getting to cuckoo and him saying "Guess you just wanted to say hi" really took me out of the experience
     - the game up to this point had an excellent meta-narrative aligned with the experience of the player, and like I'm not done bruh
@@ -460,6 +470,12 @@ P2+: past MVP
     - "how still they are when they stare at you"
     - "how fidgety they are"
     - save it of course
+- MORE dialogue
+    - like 10 more deadlift beach benching yap sessions those are gold
+    - dialogue for every other deadlift at the beach
+    - fill me up baby I'll pay for translation
+- the dialogues for trying to go to the pot specific areas in the first day before you meet cuckoo could have a consistent "come back here tomorrow"
+    - especially for how early this is in a new players experience, they might just take their current statements as not allowed. I guess it's fine people don't want to will try. I guess in a video game the very first thing you think is, I wonder how to get past this.
 ### wishlist: scope notwithstanding
 - code all 1 upgrades to get past max if you use the shop 3 trick
 - diegetic reason to keep playing and improving, but epic
@@ -485,3 +501,4 @@ P2+: past MVP
 - I haven't gotten her through the trickshot turorial yet. I'm struggling to remember what pushed me to do that
 - she's learning to swap more before she dies though. I guess I Just need to let that cook. I should have recorded my first playthroughs
 - elites are a great way to encourage swaps. "I want that"
+- aphid overheat is a great ease in to learning trickshots
