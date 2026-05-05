@@ -42,7 +42,7 @@ overall same
 	- underflows, if not enough heat, the distance or damage (probably damage) is lowered
 		- that or just have a heat requirement, yeah that's probably simpler
 	- *a good, more single-targed version of a heated move*
-	- *I like the flipped one being on secondary, you can really balance primary and secondary if you want to stay in either form, nicely done*
+	- *I like the flipped one being on secondary, you can really balance primary and secondary if you want to stay in either form, nicely brain'd skeletor*
 - M3: [Stress 10, 10/hurt] Tesla util
 	- shield yourself in a layer of electricity. hits are absorbed and generate heat
 	- *Unsure about this one because shielding damage is better for short-range design. will still give it a try first to see. Maybe it'll see use by letting you go into crowds, generate heat, overheat then use aoe moves on them*
@@ -59,7 +59,7 @@ overall same
 - M2: [Stress 10, 10/bounce] Hammer Slam
 	- Generate a chunk of heat to charge the hammer and slam it down, bouncing lightning on nearby enemies
 	- lightning can bounce back to you generating more heat for each bounce received
-	- *basically unchanged from your idea. both your hammer moves were*
+	- *basically unchanged from your idea. both your hammer moves were...*
 		- *a hit*
 - M3: [Vent 15] Short Dash
 	- Vent a small amount of heat to quickly reposition, 3 charges
@@ -107,7 +107,7 @@ Thoughts
 #### Dee’s proposed kit
 
 - primary hits a single target and scales up the execution debuff. can carry the same theming and animation as his current special where its the little siphon. Doesnt do a ton of dmg on its own; its a _bit_ weak but not so much to be unusable, but its main atraction is the debuff
-- seccondary spreads a timebomb. relatively low cooldown time, might have multiple charges to work with. The timebomb does not stack so youre encouraged to spread it across multiple enemies.
+- secondary spreads a timebomb. relatively low cooldown time, might have multiple charges to work with. The timebomb does not stack so youre encouraged to spread it across multiple enemies.
 - utility's the same. maybe smaller radius but otherwise this is fine as-is. maybe smaller radius and range but lower cooldown as to encourage more active use? idk i really like this one its really fun.
 - special is replaced to an ability that stops enemies within a small radius, like a little blast. after a while the enemies start moving by themselves but the debuffs stay "paused". timebomb while paused stays there, and execution debuff doesnt decay, but it also doesnt execute enemies.
     - _holding_ the special charges up a _bigger_ blast radius that un-pauses the enemies, and "triggers" the debuffs (timebomb forcefully explodes when un-paused, and the execution tresshold becomes active again alowing enemies to be executed)
@@ -248,6 +248,27 @@ Potential is truly infinite here. Could add an actual resource system for buying
 # Steel Ronin
 Or any of the other units
 - Maybe as bosses/golem-tier big enemies
+# Chitzkoi
+### brainstorm
+- just dog
+    - only primary
+        - maybe all skills just do the same thing
+    - oh shit aliem leap is a thing
+- Non-scope version: actual kit
+    - I feel like if I try to hard it would kinda defeat the point of the character
+- Med-scope version: just dog but 
+    - primary: pounce. kills 80hp breakpoints
+    - secondary: bigger pounce on cooldown
+    - utility, toggle sprint (or just move speed boost for a duration)
+    - special, uhhhhhh fuckin volkov laser fuck it
+        - no just really big chomp on a longer cooldown. the ultimate distillation of the 4 skill slots
+    - what happens if a pounce doesn't kill
+        - I guess it's not out of scope to add twilight princess latching cause it's literally just aliem
+## Okay actually ig
+- primary: pounce. latches. when latched, hold to monch
+- secondary: only available while latched. big monch. refreshes if kill, can 1-shot fodder
+- uility: yeah basic speed boost whatever
+- special: biggest monch. long cooldown. kills golems and elites. refreshes just secondary?
 # Other Content
 - Purchasable terror drone
     - Maybe enemy

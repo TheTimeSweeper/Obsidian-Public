@@ -246,6 +246,14 @@ funny website where you ask an "ai" that's just some random dude responding. Ask
 - A combination of both attacks to make one powerful one!
 - Guns and if you already had that idea well......... BIGGER GUNS
 - Well you clearly have already come up with the idea but maybe it can turn into clones
+### what if Providence in ram
+- the lore nerds of risk of rain 2 uploaded into some random bot with a big weapon and risk of rain to brain rotted it
+- big sword cool
+- needs Providence down slash that's all i got
+- or mithrix, wife seems to have more thoughts on mithrix instead
+    - one big slam as a character could be cool
+
+
 # Code notes for enemy api or whatevs
 ## P0: Bare Minimum
 - consts
@@ -429,7 +437,7 @@ P2+: past MVP
     - maybe just cut out evolution upgrades
         - maybe only faith
 - wondering why the faith upgrade is not to let you get past swap barriers?
-    - ok I misunderstood what cuckoo was saying. he said you'll be able to bypass swap inhibitors after the patch patch. when I first read that I got excited that I would be able to do that in a run
+    - ok I misunderstood what cuckoo was saying. he said you'll be able to bypass swap inhibitors after the deployment. when I first read that I got excited that I would be able to do that in a run
 - outlines on items in the tab menu for rarity
 - temp display of the upgrades elite bots have in the tab menu when you're playing as them 
 - some conveyance that some trickshots refill your meter
@@ -447,6 +455,15 @@ P2+: past MVP
         - bitch that should've came at the beginning
     - have some way to skip to important dialogue
     - maybe some way to re ask about that dialogue you skipped or something
+- shoot cuckoo in bad ending
+    - make clicking the dialog box shoot cause you're no longer inhibited by your promise or whatever
+    - and if your cursor just so happens to be in the wrong spot...
+    - let's just say I'm surprised they missed this undertale-ass moment
+- local swap bar on character is Garbo
+- this ![[image.png|302x150]]
+    - should not have faded away. I see hits of what I'm thinking in the actual sprite, it should have really shattered out
+    - like that stick on the left should not be there at all
+    - monthly binge of all the devlogs, he says they hit with so much force that it shatters the blade on contact, I never got that impression
 ### Yapper
 - diegetic reason to keep playing and improving
     - getting to cuckoo and him saying "Guess you just wanted to say hi" really took me out of the experience
@@ -462,19 +479,23 @@ P2+: past MVP
             - "Well we've been coasting on the whole idea that you should just keep doing what you're doing. "
     - I've already beaten the game and am just fucking around:
         - "No anomaly to integrate? You move with some kind of purpose I haven't really seen before. If I didn't know any better I'd think you've somehow already completed the mission in your mind or something."
-            - did you run some kind of hyperbolic time simulation on your own since the last time I saw you?
+            - "did you run some kind of hyperbolic time simulation on your own since the last time I saw you?"
     - keep the "just wanted to say hi" as a random one
-- randomize "how could you not tell this was {{shop_golem_name()}}? They move totally differently. **The angle of their head and stuff.**"
-    - "the way the walk"
-    - "the way they hold the shotgun"
-    - "how still they are when they stare at you"
-    - "how fidgety they are"
-    - save it of course
+- randomize 
+    - "Ira: how could you not tell this was {{shop_golem_name()}}?
+    - They move totally differently. 
+    - Cuckoo: They do? 
+    - Ira: Yeah? **The angle of their head and stuff.**"
+        - "the way the walk"
+        - "the way they hold the shotgun"
+        - "how still they are when they stare at you"
+        - "how fidgety they are"
+        - save it of course
 - MORE dialogue
     - like 10 more deadlift beach benching yap sessions those are gold
     - dialogue for every other deadlift at the beach
     - fill me up baby I'll pay for translation
-- the dialogues for trying to go to the pot specific areas in the first day before you meet cuckoo could have a consistent "come back here tomorrow"
+- the dialogues for trying to go to the plot specific areas in the first day before you meet cuckoo could have a consistent "come back here tomorrow"
     - especially for how early this is in a new players experience, they might just take their current statements as not allowed. I guess it's fine people don't want to will try. I guess in a video game the very first thing you think is, I wonder how to get past this.
 ### wishlist: scope notwithstanding
 - code all 1 upgrades to get past max if you use the shop 3 trick
