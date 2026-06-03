@@ -32,6 +32,26 @@
         - collider: bodied
         - epitaph: rally, pinball, rebound
         - thistle: pierced
+    - enemy design
+        - maybe this shouldn't be last
+for copy paste
+- Aspects
+    - Movement: 
+        - 
+    - Trickshot: 
+        - 
+    - Skill Ceiling: 
+        - 
+    - deflecting
+        - 
+    - Collider Shield
+        - 
+    - knockback?
+        - 
+    - some kind of trickshot that doesn't require swapping
+        - 
+    - enemy design
+        - 
 ### Whip Guy
 latch on to things and spin around to damage with the line
 - m1 energy whip
@@ -67,6 +87,9 @@ latch on to things and spin around to damage with the line
     - some kind of trickshot that doesn't require swapping
         - bodied?
         - latch to one enemy and launch yourself to another
+    - enemy design
+        - super zone of death latching on to other enemies
+        - rotating hitbox that you have to watch for and dodge actually sounds pretty fun
 - idk where to fit, probably an upgrade: pull enemy opposite your direction, so you can just spin around together and fly in a direction like a bolas
 ### Electrician
 throw conductors and chain zap between them and enemies
@@ -238,6 +261,18 @@ both stances react to being hit differently
 starts in a random stance
 ### Katamari LOL
 - would be a better boss, probably
+- swap into bots and walk into the ball to purposefully grow it
+### what if Providence in ram
+- the lore nerds of risk of rain 2 uploaded into some random bot with a big weapon and risk of rain to brain rotted it
+- big sword cool
+- needs Providence down slash that's all i got
+- or mithrix, wife seems to have more thoughts on mithrix instead
+    - one big slam as a character could be cool
+## rhythm
+- can't believe it took until dead at disco for me remember this
+- pretty much copy paste the moonfall concept probably
+## Roguel
+- don't exactly know, but I know what I saw rogue legacy attacking while moving backwards to getting the perfect timing so you don't strafe back, I thought that is a very good high scale ceiling thing to make into a ram bot
 ### youraislopbores.me
 funny website where you ask an "ai" that's just some random dude responding. Asked for bot ideas
 - One with controllable wheel thingys with spikes like ninja stars pls understand what I'm talking about I forgot what they are called and they are connected by a chain
@@ -246,12 +281,7 @@ funny website where you ask an "ai" that's just some random dude responding. Ask
 - A combination of both attacks to make one powerful one!
 - Guns and if you already had that idea well......... BIGGER GUNS
 - Well you clearly have already come up with the idea but maybe it can turn into clones
-### what if Providence in ram
-- the lore nerds of risk of rain 2 uploaded into some random bot with a big weapon and risk of rain to brain rotted it
-- big sword cool
-- needs Providence down slash that's all i got
-- or mithrix, wife seems to have more thoughts on mithrix instead
-    - one big slam as a character could be cool
+- 2X Slash, and a wind gather attack like venti in genshin
 
 
 # Code notes for enemy api or whatevs
@@ -317,7 +347,7 @@ P2+: past MVP
 - `Enemy.ENEMY_NAME`
 - `Enemy.PlayableEnemyType`
 - `Enemy.enemy_icon_paths`
-- `EliteEnemyUtil`
+- `EliteEnemyUtil.`
     - `template_names`
     - `enemy_type_templates`
     - `template_skins`
@@ -433,17 +463,17 @@ P2+: past MVP
 # wishlist
 - sign out is a thing
 - reduce screenshake while swapping
+- zoom out while swapping
 - just let me stack the story upgrades and adversarial learning, man. those runs were way too easy after what I was putting myself through and enjoying
     - maybe just cut out evolution upgrades
         - maybe only faith
-- wondering why the faith upgrade is not to let you get past swap barriers?
-    - ok I misunderstood what cuckoo was saying. he said you'll be able to bypass swap inhibitors after the deployment. when I first read that I got excited that I would be able to do that in a run
 - outlines on items in the tab menu for rarity
 - temp display of the upgrades elite bots have in the tab menu when you're playing as them 
 - some conveyance that some trickshots refill your meter
 - enemies duplicated by that adversarial modifier give half points'
-- aphid flames are additive, so when multiple overlap you see them get brighter
-    - help convey that as it revs up you shoot more flames
+- aphid flame sprites are additive, so when multiple overlap you see them get brighter
+    - helps convey that as it revs up you shoot more flames
+    - eh tried it didn't help all that much I think
 - "you were in rough shape when I found you"
     - nah man I got past the shop, I was doing good even
     - "you killed a few bots, and got destroyed within minutes"
@@ -451,32 +481,43 @@ P2+: past MVP
 - memories really need to have little screenshots man
     - I assume the resistance was on coding dynamic screen capture, but just do it externally in editor and store them instead
 - some way to choose to cut down on the yapping
-    - after the first golem defeat lower dump, he says at some point" I don't care or I know you don't care or whatever so here's the important info" 
+    - after the first golem defeat lore dump, he says at some point "I know you don't care or whatever so here's the important info" 
         - bitch that should've came at the beginning
     - have some way to skip to important dialogue
+        - one button just advances, one button is a full skip
+            - rapid clicking for 3 boxes is detected and auto advances
+            - hold to skip
+            - space?
+                - first time only: "whoah you're really trying to do that? "
+        - "full skip" is not full skip. advances to an important ending part, which cannot be "full skipped" for a few seconds
+            - in the example above, this is an easy distinction, in other dumpy examples...
     - maybe some way to re ask about that dialogue you skipped or something
 - shoot cuckoo in bad ending
     - make clicking the dialog box shoot cause you're no longer inhibited by your promise or whatever
-    - and if your cursor just so happens to be in the wrong spot...
+    - and if you're advancing the dialogue by clicking and your cursor just so happens to be in the wrong spot...
     - let's just say I'm surprised they missed this undertale-ass moment
 - local swap bar on character is Garbo
-- this ![[image.png|302x150]]
-    - should not have faded away. I see hits of what I'm thinking in the actual sprite, it should have really shattered out
+- this
+  ![[image.png|302x150]]
+    - should not have faded away. I see hints of what I'm thinking in the actual sprite, it should have really shattered out
     - like that stick on the left should not be there at all
     - monthly binge of all the devlogs, he says they hit with so much force that it shatters the blade on contact, I never got that impression
-### Yapper
+- reason to play more timed assault it's so good
+    - I guess this could extend to all minigames. have a very clear "this is the only thing you need to win", and have a fuckoff "catch 1000 fish" goal that isn't an achievement, but just is *some* goal that the player can keep doing after they've gotten the evolution
+- wondering why the faith upgrade is not to let you get past swap barriers?
+    - ok I misunderstood what cuckoo was saying. he said you'll be able to bypass swap inhibitors after the deployment. when I first read that I got excited that I would be able to do that in a run
+### Yapper (spoilers ahead)
 - diegetic reason to keep playing and improving
     - getting to cuckoo and him saying "Guess you just wanted to say hi" really took me out of the experience
     - the game up to this point had an excellent meta-narrative aligned with the experience of the player, and like I'm not done bruh
     - I want to keep playing to get better: 
-        - "No anomaly to integrate? If I were to guess, I might say you feel like you still aren't ready or something. *Even though we basically established you were.* Well, we didn't get this far by rushing you. Just keep in mind we have a path forward figured out, whenever you want to tackle it"
-            - maybe instead "*As if multiple victories over other GOLEMs wasn't proof enough.*"
+        - "No anomaly to integrate? If I were to guess, I might say you feel like you still aren't ready or something. *As if multiple victories over other GOLEMs wasn't proof enough.* Well, we didn't get this far by rushing you. Just keep in mind we have a path forward figured out, whenever you want to tackle it"
     - I want to keep playing to experience more:
         - "No anomaly to integrate? Are you running through to find more experiences? I doubt there's anything substantial you haven't seen at this point, but, well, your curiosity is basically the only reason this plan could work out. When you're ready to internalize those experiences, you know what to do."
             - maybe something like "well the path up the mountain isn't gonna change very much".  
     - I want to keep playing cause I'm having too much fun:
         - "No anomaly to integrate? Could be you just enjoy what you're doing, which, well, we could have worse problems."
-            - "Well we've been coasting on the whole idea that you should just keep doing what you're doing. "
+            - maybe "Well we've been coasting on the whole idea that you should just keep doing what you're doing. "
     - I've already beaten the game and am just fucking around:
         - "No anomaly to integrate? You move with some kind of purpose I haven't really seen before. If I didn't know any better I'd think you've somehow already completed the mission in your mind or something."
             - "did you run some kind of hyperbolic time simulation on your own since the last time I saw you?"
@@ -496,9 +537,12 @@ P2+: past MVP
     - dialogue for every other deadlift at the beach
     - fill me up baby I'll pay for translation
 - the dialogues for trying to go to the plot specific areas in the first day before you meet cuckoo could have a consistent "come back here tomorrow"
-    - especially for how early this is in a new players experience, they might just take their current statements as not allowed. I guess it's fine people don't want to will try. I guess in a video game the very first thing you think is, I wonder how to get past this.
+    - especially for how early this is in a new players experience, they might just take their current statements as not allowed. I guess it's fine people don't want to will try. I guess in a video game the very first thing you think is I wonder how to get past this.
+- ever so slightly unsatisfied with "that's just how improvised random shit works" as an explanation to why upgrades don't persist. there's probably a player experience meta narrative opportunity here, same with the fitness score concept
+- why does cuckoo immediately explain the MITE? need to go over that dialogue bit again idr if it was just something the golem came up with, so narratively cuckoo shouldn't expect the golem to be surprised that it did that
+    - all that mess of a sentence to say probably just delay the dialogue until the player stumbles around a bit confused about it
 ### wishlist: scope notwithstanding
-- code all 1 upgrades to get past max if you use the shop 3 trick
+- code all 1/1 upgrades to get past max if you use the shop 3 trick
 - diegetic reason to keep playing and improving, but epic
     - think more on the design and story
 - hitchhiking in the apocalypse loops the guitar part til you get to the credits or talk to cuckoo
@@ -507,12 +551,41 @@ P2+: past MVP
     - basic rundown of bots the first time you swap into them?
         - "downloading"
         - "looks like your neural net doesn't have any nodes for this bot, at least not that I can see. I could give you some starter information to chew, if you want"
+            - well, this should be after the first run
+            - and probably should be only if you're clearly struggling.
+    - overview video?
+        - per skill?
+            - mouse over?
+        - just barely enough info to get started and experiment as you play. very very short clips
+            - let the current tutorials be extra things that you can do 3 4 runs down the line when you're more curious about optimizing the character. not 5 minute long required reading before even knowing what the fuck thistle's right click is actually doing
     - thorn helps you learn trickshots when you're short on cash?
         - maybe when you download him, but that's probably a lot later than needed, also sullies the current design of him being a challenge after you're more experienced
+    - Zenithrium: "i mean CAE isnt like literally full tutorial but it doesnt truly become a real full fledged imsim until like ch5 of 8"
+        - interesting point. not only is the length of onboarding an issue, but the length of onboarding also brings up a point of the proportion of time spent with the skillset you've just dedicated so much time to picking up. 
+            - I can't word that properly. basically if it takes me like 2 weeks just to get past the skill floor, then the full experience of the game needs to be way longer to justify the time spent learning
+            - ram probably doesn't suffer from this as much, but maybe it does?
+                - partly lack of content. but you could argue the TEN different boss3 clears required to win extends the length of play time but how much of that is just padding
+                    - definitely felt like it by the last 4 cause of the challenge being fucked over by lack of adversarials
+    - Zebra: "i liked deadlift"
+        - "wow if you liked him without the tutorial then if you do the tutorial you'll like him even more"
+            - THERE'S YOUR CARROT ON A STICK FUCKO
+    - zebra: "only game I appreciated a separate tutorial is outward"
+    - intro death run is a bit of a missed opportunity to get player started feeling first 4 bots
+        - maybe even like steeltoe, aphid, thistle, epitaph
+            - wait why epitaph, that's way too hard. I was probably thinking thematically
+                - also aphid and thistle are bad examples of m2
+            - steeltoe, router, thistle is good, probably tachi, but maybe only 3 bots would even be better
+                - maybe deadlift is pretty important to get an idea for. 
+                - god damn it I have to be banished to the spreadsheet dimension again.
+    - maybe cut global swap juice in half so you die a bit faster; less time faffing about if you're really feeling aimless and not into it
+        - conversation in discord about this run being too long
+    - tone down yapping on very first meeting
+        - or use "skip to important dialogue" feature?
 - more rooms. that's by far the thing that gets old the fastest
 - separate save files might be nice
 - an alternate ending if you get to the golem on that first excursion when you first play the game
     - or alternate beginning I suppose
+- bump up the music variation on the bots. I'm sure a lot of work went into it and nobody noticed. Not that they have to be noticed, but at least *felt*, and at least felt while *looking for them*
 # random ideas
 - choose bad ending, get back to the shop, use the platform to start another run, more GOLEMs are running amock for you to fight
 - epilogue story. a whole expansion-sequel kinda deal. fight through the run with other golems and do cool stuff

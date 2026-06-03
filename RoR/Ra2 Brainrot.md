@@ -248,6 +248,9 @@ Potential is truly infinite here. Could add an actual resource system for buying
 # Steel Ronin
 Or any of the other units
 - Maybe as bosses/golem-tier big enemies
+# IFV
+really man
+
 # Chitzkoi
 ### brainstorm
 - just dog
@@ -265,10 +268,21 @@ Or any of the other units
     - what happens if a pounce doesn't kill
         - I guess it's not out of scope to add twilight princess latching cause it's literally just aliem
 ## Okay actually ig
-- primary: pounce. latches. when latched, hold to monch
-- secondary: only available while latched. big monch. refreshes if kill, can 1-shot fodder
+- primary: pounce. latches. when latched, repeatedly monch
+- secondary: only available while latched. one big monch. refreshes if kill, can 1-shot fodder
 - uility: yeah basic speed boost whatever
 - special: biggest monch. long cooldown. kills golems and elites. refreshes just secondary?
+    - cooldown reduced from successful secondary kills
+- primary pounce has short cooldown?
+    - gameplay would just be pouncing everywhere, not like a 0.5s cooldown would solve that
+    - pounce recharges over time like minecraft attacking, but at this point we're kinda ruining the joke here
+    - pounce is relatively short without a target, obviously with a target one pounce needs to reach xi construct
+    - prototype will probably much more easily reveal solutions
+- util dodge instead might be fun but I would need to think about this, and if I think about this I doubt I'll do either of these
+- special secondary kills are the only way to build special? include primary bites in that case?
+- primary latch automatically casts secondary if it'll kill? just pounce pounce pounce
+    - find out in prototype if pounce, m2, pounce, m2 is lacking
+- lot of "find out in prototype" yapping is probably just a waste of time at this point
 # Other Content
 - Purchasable terror drone
     - Maybe enemy
