@@ -273,6 +273,12 @@ starts in a random stance
 - pretty much copy paste the moonfall concept probably
 ## Roguel
 - don't exactly know, but I know what I saw rogue legacy attacking while moving backwards to getting the perfect timing so you don't strafe back, I thought that is a very good high scale ceiling thing to make into a ram bot
+## skate
+- skating is the ultimate skilll
+- grind on walls
+    - enemy is a threat on walls
+- jump off and bounce on enemies and do tricks
+- vein of tachi where they just repurpose somethring in to a grinding board
 ### youraislopbores.me
 funny website where you ask an "ai" that's just some random dude responding. Asked for bot ideas
 - One with controllable wheel thingys with spikes like ninja stars pls understand what I'm talking about I forgot what they are called and they are connected by a chain
@@ -461,6 +467,7 @@ P2+: past MVP
     - probably not really hooks, but we'll have to setup functions to our UI
 - `ShopUpgradePanel.set_upgrade`
 # wishlist
+- evl and adversarial loadouts
 - sign out is a thing
 - reduce screenshake while swapping
 - zoom out while swapping
