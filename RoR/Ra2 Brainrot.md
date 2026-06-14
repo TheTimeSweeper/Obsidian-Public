@@ -161,7 +161,7 @@ Since I just wrote the code for it
 	- lowers/removes reload time on m1, sets m2 stocks to max on first gaining buff
 
 - Alt M1 flak trooper
-	- Hitscan poof in an area (should be able to use chrono m1 code)
+	- Hitscan poof in an area 
 - Alt M2 terror drone
 	- Engi spider mine but latches on becomes a weakpoint that you shoot to explode
 
@@ -171,8 +171,47 @@ So they both do
 - m2 basic projectile
 - m3 movement
 - m4 empower m1 and m2
-# Prisma trooper inspired by tesla
-
+# Chitzkoi
+### brainstorm
+- just dog
+    - only primary
+        - maybe all skills just do the same thing
+    - oh shit aliem leap is a thing
+- Non-scope version: actual kit
+    - I feel like if I try too hard it would kinda defeat the point of the character
+- Med-scope version: just dog but 
+    - primary: pounce. kills 80hp breakpoints
+    - secondary: bigger pounce on cooldown
+    - utility, toggle sprint (or just move speed boost for a duration)
+    - special, uhhhhhh fuckin volkov laser fuck it
+        - no just really big chomp on a longer cooldown. the ultimate distillation of the 4 skill slots
+    - what happens if a pounce doesn't kill
+        - I guess it's not out of scope to add twilight princess latching cause it's literally just aliem
+## Okay actually
+- primary: pounce. latches. when latched, repeatedly monch
+- secondary: only available while latched. one big monch. refreshes if kill, can 1-shot fodder
+- uility: bork, armor, stun
+- special: biggest monch. long cooldown. kills golems and elites. refreshes just secondary?
+    - cooldown reduced from successful secondary kills
+### more brainstorm ig
+- primary pounce has short cooldown?
+    - gameplay would just be pouncing everywhere, not like a 0.5s cooldown would solve that
+    - pounce recharges over time like minecraft attacking, but at this point we're kinda ruining the joke here
+    - pounce is relatively short without a target, obviously with a target one pounce needs to reach xi construct
+    - prototype will probably much more easily reveal solutions
+- util dodge instead might be fun but I would need to think about this, and if I think about this I doubt I'll do either of these
+    - idk maybe like a roar you can only do while latched. armor, stuns, lets you pounce for a bit safely
+- special secondary kills are the only way to build special? include primary bites in that case?
+- primary latch automatically casts secondary if it'll kill? just pounce pounce pounce
+    - find out in prototype if pounce, m2, pounce, m2 is lacking
+    - on revisit, I think pressing it would actually be more fun
+    - input buffer while pouncing, to ready the chomp when you land
+- lot of "find out in prototype", so yapping is probably just a waste of time at this point
+# Boris
+has  no guts cause you replaced it with mechanical strain
+http://docs.google.com/document/d/11GbARdNVyZT66teS9PEX6Je2W_PVCzoULq2DD5bXOY4/edit?tab=t.v7981x3a71yh
+# Prisma trooper 
+loosely paralleled by tesla
 - M1 head beam in a flat cone
     - hold to charge, increasing damage and width of cone
         - Quick charges will have overall more dps on single targets. Charging up will be better for crowds but slower
@@ -251,38 +290,6 @@ Or any of the other units
 # IFV
 really man
 
-# Chitzkoi
-### brainstorm
-- just dog
-    - only primary
-        - maybe all skills just do the same thing
-    - oh shit aliem leap is a thing
-- Non-scope version: actual kit
-    - I feel like if I try to hard it would kinda defeat the point of the character
-- Med-scope version: just dog but 
-    - primary: pounce. kills 80hp breakpoints
-    - secondary: bigger pounce on cooldown
-    - utility, toggle sprint (or just move speed boost for a duration)
-    - special, uhhhhhh fuckin volkov laser fuck it
-        - no just really big chomp on a longer cooldown. the ultimate distillation of the 4 skill slots
-    - what happens if a pounce doesn't kill
-        - I guess it's not out of scope to add twilight princess latching cause it's literally just aliem
-## Okay actually ig
-- primary: pounce. latches. when latched, repeatedly monch
-- secondary: only available while latched. one big monch. refreshes if kill, can 1-shot fodder
-- uility: yeah basic speed boost whatever
-- special: biggest monch. long cooldown. kills golems and elites. refreshes just secondary?
-    - cooldown reduced from successful secondary kills
-- primary pounce has short cooldown?
-    - gameplay would just be pouncing everywhere, not like a 0.5s cooldown would solve that
-    - pounce recharges over time like minecraft attacking, but at this point we're kinda ruining the joke here
-    - pounce is relatively short without a target, obviously with a target one pounce needs to reach xi construct
-    - prototype will probably much more easily reveal solutions
-- util dodge instead might be fun but I would need to think about this, and if I think about this I doubt I'll do either of these
-- special secondary kills are the only way to build special? include primary bites in that case?
-- primary latch automatically casts secondary if it'll kill? just pounce pounce pounce
-    - find out in prototype if pounce, m2, pounce, m2 is lacking
-- lot of "find out in prototype" yapping is probably just a waste of time at this point
 # Other Content
 - Purchasable terror drone
     - Maybe enemy
