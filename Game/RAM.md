@@ -3,17 +3,17 @@
 - m2
 - Aspects
     - Movement: 
-        - all bots have some kind movement they can do
+        - all bots have some kind of movement they can do
     - Trickshot: 
         - ability to land kills after swapping
     - Skill Ceiling: 
         - the longer you play the bot the better you can get the hang of some kind of mechanic they have
     - deflecting
         - /some interaction with projectiles
-        - everyone but aphid
+        - *everyone but aphid* (besides kamikaze I suppose)
     - Collider Shield
         - some interaction with the shield, especially if you are ranged
-        - everyone but epitaph, deadlift
+        - *everyone but epitaph, deadlift*
     - knockback?
         - steeltoe: m2
         - router: m2
@@ -44,7 +44,7 @@ for copy paste
         - 
     - deflecting
         - 
-    - Collider Shield
+    - Collider Shield if appropriate
         - 
     - knockback?
         - 
@@ -163,6 +163,7 @@ mix m1 and m2 to do fighting game combos
 - 1, 11, 111 finisher
 - 2, 22, 222 finisher
 - 1, 11, 2, 22, can be mixed and matched indefinitely until a finisher is used
+- wait where's 12 and 21? well if we have those then we'll never have 1 or 2
 - longer the combo the better the finisher
 - sword and shield bot? chivalry knight bot like that's the joke it's medieval knight even though we're in robot age
     - 1 swipe, 11 spin in aim direction possibly gathers toward aim, 111 slam shield in the ground
@@ -209,7 +210,8 @@ Animation:
         - maybe they just had shields and people gravitated toward them looking like knights kinda
             - if so, why
         - rogue faction of steeltoes that equipped swords instead of shotguns?
-    - maybe lean into the sweaty fighting game direction. they're just all melee players
+        - "sword" and "shield" could be other things repurposed to that, like 
+- maybe lean into the sweaty fighting game direction. they're just all melee players
 ### Desolator
 - m1 shoot
     - does this game have debuffs?
@@ -272,7 +274,7 @@ starts in a random stance
 - can't believe it took until dead at disco for me remember this
 - pretty much copy paste the moonfall concept probably
 ## Roguel
-- don't exactly know, but I know what I saw rogue legacy attacking while moving backwards to getting the perfect timing so you don't strafe back, I thought that is a very good high scale ceiling thing to make into a ram bot
+- don't exactly know, but I know what I saw rogue legacy attacking while moving backwards to getting the perfect timing so you don't strafe back, I thought that is a very good high skill ceiling thing to make into a ram bot
 ## skate
 - skating is the ultimate skilll
 - grind on walls

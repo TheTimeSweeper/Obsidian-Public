@@ -270,6 +270,21 @@ Challenge to design a full flight character, adding tradeoffs to the freedom of 
 - ~~could be primary knocks you back, so naturally doing it downwards propels you upwards, making the falloff worse, so you want to stay level or even on the ground~~
 	- neh the whole fuckin point of being a rocketeer is raining fire below
 
+# Terrorist
+from skeletor:
+> Conscript Variant that's mostly cyborg with cheap replaceable parts and his whole game plan is exploding on enemies
+> Literal meat grinder tactics
+> How do you make a character explode without dying in a game where the objective is not to die?
+> You can detonate your limbs when doing a skill to boost them, the limbs get reconstructed after a cooldown period
+> On death, you get 3 or so seconds to detonate all your remaining limbs, killing an enemy in this explosion gives you a second wind, resurrecting you at half health with all your limbs regenerated
+> Actually, the survivor is literally just a head which can eject from the body when it gets destroyed and float around while he waits for the body to be reconstructed
+> Also he gets Cadet's Exploding gun reload thing
+
+from sweeper:
+> you know
+> I didn't even consider the terrorist unit for even a second
+> and you somehow made it work
+
 # MCV, yes really
 Prototype:
 - ideally proper top down camera and mouse cursor but for prototype just pull up the camera real high and aim
