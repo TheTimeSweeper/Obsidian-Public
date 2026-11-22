@@ -2,12 +2,12 @@
 - m1
 - m2
 - Aspects
+    - Skill Ceiling: 
+        - the longer you play the bot the better you can get the hang of some kind of mechanic they have
     - Movement: 
         - all bots have some kind of movement they can do
     - Trickshot: 
         - ability to land kills after swapping
-    - Skill Ceiling: 
-        - the longer you play the bot the better you can get the hang of some kind of mechanic they have
     - deflecting
         - /some interaction with projectiles
         - *everyone but aphid* (besides kamikaze I suppose)
@@ -30,28 +30,47 @@
         - aphid: pan-seared
         - tachi: chain, exit wound
         - collider: bodied
-        - epitaph: rally, pinball, rebound
+        - epitaph: rally, pinball, rebound, three-sixty now
         - thistle: pierced
     - enemy design
         - maybe this shouldn't be last
-for copy paste
+for copy paste 
 - Aspects
+    - Skill Ceiling: 
+        - 
     - Movement: 
         - 
     - Trickshot: 
         - 
-    - Skill Ceiling: 
+    - Deflecting
         - 
+    - Collider Shield
+        - 
+    - Knockback?
+        - 
+    - Swapless Trickshot: 
+        - 
+    - Enemy design
+	    - 
+#### For discussion
+- overall design
+	- Simply pressing one button and pressing the other is not quite engaging. You only have two buttons, but you have to really stretch the use of them. The game plan of using the skills has to be as involved as possible, but some level of staying quick and somewhat simple is also valuable. this is where skill ceiling comes in
+	- Every bot's skill ceiling is very high. as you play the bot, you should be getting better and better at some aspect of the bot. you shouldn't immediately get their highest potential from simple means the first few times you play. this goes a huge way into keeping their relatively simple M.O.s still enjoyable.
+	- Finally (to me), keep in mind the bot is also an enemy. It's hard to say "you have to make sure your kit is interesting as a player and as an enemy", because trying to fulfil both at the same time can be confusing and limiting. I personally prefer to think of kits that are interesting from a player perspective first, then flip it to the enemy side to think what that enemy is like, and and see what can or should be done to the bot as a whole to make it better without compromising on the player experience.
+		- this one's also a personal thing, but in doing that, I like to avoid hard-coded "when the bot is player do this, when the bot is enemy do that" as much as possible. RAM does it for example for routers, whose grenades never bonk when they're enemies, so it's not exactly a sin, but the more the bot differs when you play it and when you fight it the more you give up on the fantasy of truly controlling the bot you see. upsides and downsides and all. Small tweaks are more acceptable, e.g. steeltoe enemy projectile being much slower than the player's. 
+- Other Aspects all bots share that yours should probably fill out
+    - Movement: 
+        - every bot needs some way to dodge clutch attacks. every bot has something in their kit that provides some form of movement, varied as they all are.
+    - Trickshot: 
+        - Each bot should to be able to continue to deal damage and land kills after you have left its body
     - deflecting
-        - 
+        - Not a hard requirement, but it's generally more fun to have an option to deflect projectiles instead of having to dodge them
     - Collider Shield if appropriate
-        - 
+        - how does this character interact with collider shields? how do enemy collider shields change how you play the game? how does your collider shield as the player interact with the enemies as RAM's shield guy
     - knockback?
-        - 
+        - not exactly a requirement, but knockback is used by all bots but one to add oomph to skills
     - some kind of trickshot that doesn't require swapping
-        - 
-    - enemy design
-        - 
+        - each bot has a trickshot they can perform while you're still controlling the bot, so you can stack this with the standard trickshot
 ### Whip Guy
 latch on to things and spin around to damage with the line
 - m1 energy whip
