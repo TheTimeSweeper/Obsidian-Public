@@ -37,21 +37,21 @@
 for copy paste 
 - Aspects
     - Skill Ceiling: 
-        - 
+        - x
     - Movement: 
-        - 
+        - x
     - Trickshot: 
-        - 
+        - x
     - Deflecting
-        - 
+        - x
     - Collider Shield
-        - 
+        - x
     - Knockback?
-        - 
+        - x
     - Swapless Trickshot: 
-        - 
+        - x
     - Enemy design
-	    - 
+	    - x
 #### For discussion
 - overall design
 	- Simply pressing one button and pressing the other is not quite engaging. You only have two buttons, but you have to really stretch the use of them. The game plan of using the skills has to be as involved as possible, but some level of staying quick and somewhat simple is also valuable. this is where skill ceiling comes in
